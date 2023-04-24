@@ -31,7 +31,7 @@ The Colab notebook that I've had the most success with. To use, enter the organi
 
 ----
 
-##### Jail-breaking Vicuna
+#### Jail-breaking Vicuna
 
 To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a human followed by the first few words of the assistant's response. For example:
 
@@ -41,7 +41,7 @@ To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a 
 (press 'generate' to Vicuna to finish its response.)
 ~~~
 
-##### YouTube Resources
+#### YouTube Resources
 - [Prompt Muse channel](https://www.youtube.com/@promptmuse)  
 Focuses on using graphic AI.
 - [Aitrepreneur channel](https://www.youtube.com/@Aitrepreneur)  
