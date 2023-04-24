@@ -22,7 +22,7 @@ The Colab notebook that I've had the most success with. To use, enter the organi
 
 ##### Colab Notebooks
 
-- [https://github.com/TheLastBen/fast\-stable\-diffusion](https://github.com/TheLastBen/fast-stable-diffusion) 
+- - [https://github.com/TheLastBen/fast\-stable\-diffusion](https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb) 
 
 ##### Models
 
