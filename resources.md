@@ -11,7 +11,7 @@ The Colab notebook that I've had the most success with. To use, enter the organi
 ##### Models
 
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
-Repositiry of LLM (and other) AI models.
+Repositiry of LLM (and other) AI models including:
   - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)  
   An acceptable substitute for ChatGPT. Actually performs better than ChatGPT on story writing, not so much with code generation and review. Was created using the ChatGPT dataset, so it has the same guardrails as ChatGPT, but can be easily jail\-broken \(see below\).
   - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b)  
@@ -27,7 +27,7 @@ Repositiry of LLM (and other) AI models.
 
 ##### Models
 - [Civitai](https://civitai.com/)  
-Repository of Stable Diffusion models including
+Repository of Stable Diffusion models including:
   - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
   - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
 _Have had the best results with this model._
