@@ -16,7 +16,7 @@ The Colab notebook that I've had the most success with. To use, enter the organi
   An LLM model without the safeguards of ChatGPT. Has a tendency to produce NSFW content. \(In fact, the original of this model, PygmalionAI/pygmalion\-6b, is banned on Google Colab. Use alternate repositories like waifu\-workshop.\)
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)
 - [The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)  
-  This looks pretty interesting. Haven't played with it, but seems to be worth a look.
+  _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 
 #### Stable Diffusion
 
