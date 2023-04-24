@@ -10,11 +10,12 @@ The Colab notebook that I've had the most success with. To use, enter the organi
 
 ##### Models
 
-- [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)  
+- [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
+Repositiry of LLM (and other) AI models.
+  - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)  
   An acceptable substitute for ChatGPT. Actually performs better than ChatGPT on story writing, not so much with code generation and review. Was created using the ChatGPT dataset, so it has the same guardrails as ChatGPT, but can be easily jail\-broken \(see below\).
-- [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b)  
+  - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b)  
   An LLM model without the safeguards of ChatGPT. Has a tendency to produce NSFW content. \(In fact, the original of this model, PygmalionAI/pygmalion\-6b, is banned on Google Colab. Use alternate repositories like waifu\-workshop.\)
-- [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)
 - [The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)  
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 
