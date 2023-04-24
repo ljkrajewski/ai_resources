@@ -25,9 +25,10 @@ The Colab notebook that I've had the most success with. To use, enter the organi
 - [https://github.com/TheLastBen/fast\-stable\-diffusion](https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb) 
 
 ##### Models
-
-- [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
-- [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
+- [Civitai](https://civitai.com/)  
+Repository of Stable Diffusion models including
+  - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
+  - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
 _Have had the best results with this model._
 
 ----
