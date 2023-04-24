@@ -41,3 +41,8 @@ To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a 
 (press 'generate' to Vicuna to finish its response.)
 ~~~
 
+##### YouTube Resources
+- [Prompt Muse channel](https://www.youtube.com/@promptmuse)  
+Focuses on graphic AI.
+- [Aitrepreneur channel](https://www.youtube.com/@Aitrepreneur)  
+Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
