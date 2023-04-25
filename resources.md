@@ -25,7 +25,7 @@ ChatGPT front-end website clone.
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free)  
 Offers reverse-engineered third-party APIs for GPT-4/3.5, sourced from various websites. You can simply download this repository, and use the available modules, which are designed to be used just like OpenAI's official package.
 - [oobabooga/text-generation-webui: Add LLaMA to Colab #217](https://github.com/oobabooga/text-generation-webui/issues/217)  
-Getting LLaMa (and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/alpaca-13b-lora-int4) _[See near bottom of page]_) to work in Oobabooga.
+Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/alpaca-13b-lora-int4) _(See near bottom of page)_ to work in Oobabooga.
 
 #### Stable Diffusion
 
