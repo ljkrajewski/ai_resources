@@ -23,7 +23,7 @@ Repositiry of LLM (and other) AI models including:
 - [xtekky/chatgpt-clone](https://github.com/xtekky/chatgpt-clone)  
 ChatGPT front-end website clone.
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free)  
-This repository offers reverse-engineered third-party APIs for GPT-4/3.5, sourced from various websites. You can simply download this repository, and use the available modules, which are designed to be used just like OpenAI's official package.
+Offers reverse-engineered third-party APIs for GPT-4/3.5, sourced from various websites. You can simply download this repository, and use the available modules, which are designed to be used just like OpenAI's official package.
 
 #### Stable Diffusion
 
