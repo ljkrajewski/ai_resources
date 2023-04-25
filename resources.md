@@ -1,4 +1,4 @@
-#### Chat/Text Generation
+#### Text-to-Text Generation
 
 ##### Google Colab Notebooks
 
@@ -33,7 +33,7 @@ Offers reverse-engineered third-party APIs for GPT-4/3.5, sourced from various w
 - [oobabooga/text-generation-webui: Add LLaMA to Colab #217](https://github.com/oobabooga/text-generation-webui/issues/217)  
 Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/alpaca-13b-lora-int4) _(See near bottom of page)_ to work in Oobabooga.
 
-#### Stable Diffusion
+#### Text-to-Image Generation
 
 ##### Colab Notebooks
 
