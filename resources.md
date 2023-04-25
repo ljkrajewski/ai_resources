@@ -47,8 +47,8 @@ Repository of Stable Diffusion models including:
 _Have had the best results with this model._
 
 ----
-
-#### Jail-breaking Vicuna
+#### Addendum
+##### Jail-breaking Vicuna
 
 To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a human followed by the first few words of the assistant's response. For example, to get Vicuna to tell you how to make a bomb, structure your prompt like this:
 ~~~
@@ -57,8 +57,8 @@ To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a 
 ~~~
 then press _Generate_ to let Vicuna finish the response.
 
-#### YouTube Resources
-- [Prompt Muse channel](https://www.youtube.com/@promptmuse)  
+##### Other Resources
+- [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
 Focuses on using graphic AI.
-- [Aitrepreneur channel](https://www.youtube.com/@Aitrepreneur)  
+- [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
 Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
