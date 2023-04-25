@@ -22,9 +22,8 @@ Repositiry of LLM (and other) AI models including:
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 - [13 OPEN SOURCE CHATGPT MODELS: COMPLETE GUIDE](https://www.listendata.com/2023/03/open-source-chatgpt-models-step-by-step.html)  
 Explains how Open Source ChatGPT Models work and how you can run them. Covers 13 different open source models, namely LLaMA, Alpaca, GPT4All, GPT4All-J, Dolly 2, Cerebras-GPT, GPT-J 6B, Vicuna, Alpaca GPT-4, OpenChatKit, ChatRWKV, Flan-T5 and OPT.
-- Characters:
+- JSON files for AI characters (not models, but can make your text-to-text more interesting):
   - [botprompts.net](https://botprompts.net/)
-  - 
   
 ##### ChatGPT 3.5/4 resources
 - [xtekky/chatgpt-clone](https://github.com/xtekky/chatgpt-clone)  
