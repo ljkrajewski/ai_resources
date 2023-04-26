@@ -58,12 +58,6 @@ To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a 
 ~~~
 then press _Generate_ to let Vicuna finish the response.
 
-##### Other Resources
-- [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
-Focuses on using graphic AI.
-- [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
-Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
-
 ##### Google Colab Tricks
 - [Killing a cell to restart runtime](https://stackoverflow.com/questions/53154369/google-colab-how-to-restart-runtime-using-python-code-or-command-line-interf)
 ```python3
@@ -76,3 +70,9 @@ kill(getpid(), 9)
 # don't go beyond here with Run All
 assert False
 ```
+
+##### Other Resources
+- [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
+Focuses on using graphic AI.
+- [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
+Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
