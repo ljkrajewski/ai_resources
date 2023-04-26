@@ -62,3 +62,16 @@ then press _Generate_ to let Vicuna finish the response.
 Focuses on using graphic AI.
 - [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
 Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
+
+##### Google Colab Tricks
+- [Killing a cell to restart runtime](https://stackoverflow.com/questions/53154369/google-colab-how-to-restart-runtime-using-python-code-or-command-line-interf)
+```python3
+print('Stopping RUNTIME! Please run this cell again.')
+from os import kill,getpid
+kill(getpid(), 9)
+```
+- [Stopping on a cell during a 'run all'](https://groups.google.com/g/jupyter/c/ELftSFSiedQ)
+```python3
+# don't go beyond here with Run All
+assert False
+```
