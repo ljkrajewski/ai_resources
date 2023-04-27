@@ -38,6 +38,8 @@ Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/al
 ##### Colab Notebooks
 
 - [https://github.com/TheLastBen/fast\-stable\-diffusion](https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb) 
+  - Google Colab Stable Diffusion notebook (coming)
+  - [Google Colab Dreambooth notebook](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb)
 
 ##### Models
 - [Civitai](https://civitai.com/)  
