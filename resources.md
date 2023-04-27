@@ -40,7 +40,7 @@ Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/al
 - [https://github.com/TheLastBen/fast\-stable\-diffusion](https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb) 
   - Google Colab Stable Diffusion notebook (coming)
   - [Google Colab Dreambooth notebook](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb)
-    - [Alternative GC Dreambooth notebook] (https://colab.research.google.com/github/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb)
+    - [Alternative GC Dreambooth notebook](https://colab.research.google.com/github/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb)
 
 ##### Models
 - [Civitai](https://civitai.com/)  
