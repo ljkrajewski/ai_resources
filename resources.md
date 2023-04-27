@@ -42,11 +42,12 @@ Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/al
 ##### Models
 - [Civitai](https://civitai.com/)  
 Repository of Stable Diffusion models including:
-  - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
-  - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
-_Have had the best results with this model._
-  - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)  
   - [Set of photorealistic models to browse](https://civitai.com/tag/photorealistic)
+  - Best models (IMO):
+    - [Level4](https://civitai.com/models/17449/level4)
+    - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
+    - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
+    - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)  
 
 ----
 #### Addendum
