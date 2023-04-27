@@ -72,6 +72,10 @@ kill(getpid(), 9)
 assert False
 ```
 
+##### Alternatives to Google Colab
+- [Runpod](https://www.runpod.io/)  
+GPU rental with Jupyter Notebook. Not free; starts at $0.20/hour.
+
 ##### Other Resources
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
 Focuses on using graphic AI.
