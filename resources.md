@@ -76,6 +76,8 @@ assert False
 ##### Alternatives to Google Colab
 - [Runpod](https://www.runpod.io/)  
 GPU rental with Jupyter Notebook. Not free; starts at $0.20/hour.
+  - [How to run Stable Diffusion with no fuss on RunPod](https://blog.runpod.io/stable-diffusion-ui-on-runpod/)
+  - [How to Get Really Good Results with Dreambooth](https://blog.runpod.io/how-to-get-really-good-results-with-dreambooth-on-runpod/)
 
 ##### Other Resources
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
