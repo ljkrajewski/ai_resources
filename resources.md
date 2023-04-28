@@ -77,7 +77,7 @@ assert False
 ```
 - Using the GPU
   - [Google Colab - Using Free GPU (tutorialspoint)](https://www.tutorialspoint.com/google_colab/google_colab_using_free_gpu.htm)
-  - **[Google Colab Free GPU Tutorial (Medium)](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)**
+  - ** !! [Google Colab Free GPU Tutorial (Medium)](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)**
   - [Start Using Google Colab Free GPU (Medium)](https://medium.com/dataman-in-ai/start-using-google-colab-free-gpu-7968acb7ef92#:~:text=Go%20to%20Edit%20%3E%20Notebook%20settings,That's%20it.)
 
 ##### Alternatives to Google Colab
