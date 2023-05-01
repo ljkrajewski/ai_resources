@@ -45,6 +45,7 @@ Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/al
 Segment Anything Model (SAM)
 
 ##### Models
+- [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)
 - [Civitai](https://civitai.com/)  
 Repository of Stable Diffusion models including:
   - [Set of photorealistic models to browse](https://civitai.com/tag/photorealistic)
@@ -52,8 +53,7 @@ Repository of Stable Diffusion models including:
     - [Level4](https://civitai.com/models/17449/level4)
     - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
     - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
-    - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)  
-- [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)
+    - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)
 
 ----
 #### Addendum
