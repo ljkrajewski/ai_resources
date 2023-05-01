@@ -105,3 +105,4 @@ Source:  [r/Oobabooga - Is there somewhere that explains...](https://www.reddit.
 Focuses on using graphic AI.
 - [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
 Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
+- [Why everyone else's Stable Diffusion Art is better than yours (Checkpoint, LoRA and Civitai)](https://www.youtube.com/watch?v=GBYD-CyTt7w)
