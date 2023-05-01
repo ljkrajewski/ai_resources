@@ -86,6 +86,19 @@ GPU rental with Jupyter Notebook. Not free; starts at $0.20/hour.
   - [How to run Stable Diffusion with no fuss on RunPod](https://blog.runpod.io/stable-diffusion-ui-on-runpod/)
   - [How to Get Really Good Results with Dreambooth](https://blog.runpod.io/how-to-get-really-good-results-with-dreambooth-on-runpod/)
 
+##### Descriptions of chat settings in oobabooga
+- _Temperature_: This parameter controls how diverse or creative the model’s output is. A higher temperature means more randomness and less predictability, while a lower temperature means more consistency and less variation.
+- _Repetition_penalty_: This parameter penalizes words that have already appeared in the output, making them less likely to be generated again. A higher repetition penalty means less repetition and more diversity, while a lower repetition penalty means more repetition and less diversity.
+- _Top_k_: This parameter limits the number of words that the model can choose from at each step of generation. Only the top k most probable words are considered, and the rest are ignored. A higher top k means more diversity and less predictability, while a lower top k means more consistency and less variation.
+- _Top_p_: This parameter limits the probability mass that the model can choose from at each step of generation. Only the words that cumulatively add up to a probability of p or higher are considered, and the rest are ignored. A higher top p means more diversity and less predictability, while a lower top p means more consistency and less variation.
+- _Do_sample_: This parameter controls whether the model samples from a probability distribution or picks the most probable word at each step of generation. If do_sample is true, then the model samples from a distribution based on temperature, top k and top p. If do_sample is false, then the model picks the most probable word regardless of temperature, top k and top p.
+- _No_repeat_ngram_size_: This parameter prevents the model from generating n-grams (sequences of n words) that have already appeared in the output. A higher no_repeat_ngram_size means less repetition and more diversity, while a lower no_repeat_ngram_size means more repetition and less diversity.
+- _Min_length_: This parameter sets the minimum number of tokens (words or symbols) that the model must generate before stopping. A higher min_length means longer outputs, while a lower min_length means shorter outputs.
+- _Contrastive search_ is a method of text generation that aims to avoid model degeneration, which is when the model repeats itself or produces generic and dull text. Contrastive search uses a degeneration penalty to penalize words that are too similar to the previous context, and a likelihood penalty to penalize words that are too unlikely given the current context1.
+- _Penalty_alpha_ is a hyperparameter that regulates the importance of these two penalties. A higher penalty_alpha means more weight on the degeneration penalty and less weight on the likelihood penalty, while a lower penalty_alpha means more weight on the likelihood penalty and less weight on the degeneration penalty1. When penalty_alpha is 0, contrastive search becomes the same as greedy search, which picks the most likely word at each step1.
+
+Source:  [r/Oobabooga](https://www.reddit.com/r/Oobabooga/comments/11st9m1/is_there_somewhere_that_explains_what_these/)
+
 ##### Other Resources
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
 Focuses on using graphic AI.
