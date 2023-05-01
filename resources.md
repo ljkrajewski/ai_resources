@@ -42,6 +42,8 @@ Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/al
   - [Google Colab Dreambooth notebook](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb)
  [Alternative GC Dreambooth notebook](https://colab.research.google.com/github/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb)
 
+Segment Anything Model (SAM)
+
 ##### Models
 - [Civitai](https://civitai.com/)  
 Repository of Stable Diffusion models including:
@@ -51,6 +53,7 @@ Repository of Stable Diffusion models including:
     - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
     - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
     - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)  
+- [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)
 
 ----
 #### Addendum
