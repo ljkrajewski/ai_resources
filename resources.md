@@ -97,7 +97,7 @@ GPU rental with Jupyter Notebook. Not free; starts at $0.20/hour.
 - _Contrastive search_ is a method of text generation that aims to avoid model degeneration, which is when the model repeats itself or produces generic and dull text. Contrastive search uses a degeneration penalty to penalize words that are too similar to the previous context, and a likelihood penalty to penalize words that are too unlikely given the current context1.
 - _Penalty_alpha_ is a hyperparameter that regulates the importance of these two penalties. A higher penalty_alpha means more weight on the degeneration penalty and less weight on the likelihood penalty, while a lower penalty_alpha means more weight on the likelihood penalty and less weight on the degeneration penalty1. When penalty_alpha is 0, contrastive search becomes the same as greedy search, which picks the most likely word at each step1.
 
-Source:  [r/Oobabooga](https://www.reddit.com/r/Oobabooga/comments/11st9m1/is_there_somewhere_that_explains_what_these/)
+Source:  [r/Oobabooga - Is there somewhere that explains...](https://www.reddit.com/r/Oobabooga/comments/11st9m1/is_there_somewhere_that_explains_what_these/)
 
 ##### Other Resources
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
