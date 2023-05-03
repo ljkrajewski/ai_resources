@@ -18,6 +18,8 @@ Repositiry of LLM (and other) AI models including:
   An acceptable substitute for ChatGPT. Actually performs better than ChatGPT on story writing, not so much with code generation and review. Was created using the ChatGPT dataset, so it has the same guardrails as ChatGPT, but can be easily jail\-broken \(see below\).
   - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b)  
   An LLM model without the safeguards of ChatGPT. Has a tendency to produce NSFW content. \(In fact, the original of this model, PygmalionAI/pygmalion\-6b, is banned on Google Colab. Use alternate repositories like waifu\-workshop.\)
+  - [Hugging Face \- TheBloke/wizardLM-7B-GPTQ](https://huggingface.co/TheBloke/wizardLM-7B-GPTQ)
+ wbits: 4, groupsize: 128, model type: llama
 - [The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)  
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 - [13 Open Source ChatGPT Models: Complete Guide](https://www.listendata.com/2023/03/open-source-chatgpt-models-step-by-step.html)  
