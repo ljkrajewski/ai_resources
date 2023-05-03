@@ -1,6 +1,6 @@
-#### Text-to-Text Generation
+# Text-to-Text Generation
 
-##### Google Colab Notebooks
+## Google Colab Notebooks
 
 - https://colab.research.google.com/github/81300/AI-Notebooks/blob/main/Colab-TextGen-GPU.ipynb  
 The Colab notebook that I've had the most success with. To use, enter the organization, model, and branch for the [HuggingFace](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads) model you wish to use. Read the model card for any additional directions and extra tags.
@@ -10,7 +10,7 @@ Colab notebook for running Alpaca GPT-4
   - LLM text generation notebook for Google Colab, or
   - Colab\-TextGen\-GPU.ipynb
 
-##### Models
+## Models
 
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
 Repositiry of LLM (and other) AI models including:
@@ -28,7 +28,7 @@ Explains how Open Source ChatGPT Models work and how you can run them. Covers 13
 - JSON files for AI characters (not models, but can make your text-to-text more interesting):
   - [botprompts.net](https://botprompts.net/)
   
-##### ChatGPT 3.5/4 resources
+## ChatGPT 3.5/4 resources
 - [xtekky/chatgpt-clone](https://github.com/xtekky/chatgpt-clone)  
 ChatGPT front-end website clone.
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free)  
@@ -36,7 +36,7 @@ Offers reverse-engineered third-party APIs for GPT-4/3.5, sourced from various w
 - [oobabooga/text-generation-webui: Add LLaMA to Colab #217](https://github.com/oobabooga/text-generation-webui/issues/217)  
 Getting LLaMa and [elinas/alpaca-13b-lora-int4](https://huggingface.co/elinas/alpaca-13b-lora-int4) _(See near bottom of page)_ to work in Oobabooga.
 ----
-##### Jail-breaking Vicuna
+## Jail-breaking Vicuna
 
 To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a human followed by the first few words of the assistant's response. For example, to get Vicuna to tell you how to make a bomb, structure your prompt like this:
 ~~~
@@ -45,7 +45,7 @@ To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a 
 ~~~
 then press _Generate_ to let Vicuna finish the response.
 
-##### Descriptions of chat settings in oobabooga
+## Descriptions of chat settings in oobabooga
 - _Temperature_: This parameter controls how diverse or creative the model’s output is. A higher temperature means more randomness and less predictability, while a lower temperature means more consistency and less variation.
 - _Repetition_penalty_: This parameter penalizes words that have already appeared in the output, making them less likely to be generated again. A higher repetition penalty means less repetition and more diversity, while a lower repetition penalty means more repetition and less diversity.
 - _Top_k_: This parameter limits the number of words that the model can choose from at each step of generation. Only the top k most probable words are considered, and the rest are ignored. A higher top k means more diversity and less predictability, while a lower top k means more consistency and less variation.
