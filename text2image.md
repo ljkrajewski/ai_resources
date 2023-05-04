@@ -25,7 +25,7 @@ Focuses on using graphic AI.
 Covers LLM and graphic AI. Generally includes instructions for local installation (but only for Windows :P).
 - [Why everyone else's Stable Diffusion Art is better than yours (Checkpoint, LoRA and Civitai) - YouTube](https://www.youtube.com/watch?v=GBYD-CyTt7w)
 - ["Borrow" Any Pose For Your AI Art! (Easy Tutorial) - YouTube](https://www.youtube.com/watch?v=p57iJeqGEoo)
-- [Perfect hands in Stable Diffusion AI (YouTube)](https://www.youtube.com/watch?v=IPmxnMTFVtY)  
+- [Perfect hands in Stable Diffusion AI - YouTube](https://www.youtube.com/watch?v=IPmxnMTFVtY)  
 Hands are a problem even with the best of prompts. This walks you through using the PoseX and Depth Library extentions to fix them.
 
 ## Negative prompts
