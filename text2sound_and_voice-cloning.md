@@ -1,5 +1,5 @@
 # Text-to-Sound Generation & Voice Cloning
-- [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts)
+- [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts)  
 Tortoise is a text-to-speech program built with the following priorities: strong multi-voice capabilities, and highly realistic prosody and intonation. This repo contains all the code needed to run Tortoise TTS in inference mode.
 - [jnordberg/tortoise-tts](https://github.com/jnordberg/tortoise-tts)  
 A _much_ older fork of **neonbjb/tortoise-tts**. Includes link to a [Google Colab notebook](https://colab.research.google.com/drive/1wVVqUPqwiDBUVeWWOUNglpGhU3hg_cbR?usp=sharing).
