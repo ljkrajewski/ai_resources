@@ -13,4 +13,4 @@ _GPU does not appear to be required._ 🐸TTS is a library for advanced Text-to-
 A deep learning framework in three stages. In the first stage, one creates a digital representation of a voice from a few seconds of audio. In the second and third stages, this representation is used as reference to generate speech given arbitrary text. **This repo is quickly getting old.** Many other open-source repositories or SaaS apps (often paying) will give you a better audio quality than this repository. [Here are some personal recommendations of alternative voice cloning solutions.](https://github.com/CorentinJ/Real-Time-Voice-Cloning#heads-up)
 
 ## Singing
-- [Text to singing voice generator | How to generate AI singing](https://www.youtube.com/watch?v=zRjLFFU3INg)
+- [Text to singing voice generator | How to generate AI singing - YouTube](https://www.youtube.com/watch?v=zRjLFFU3INg)
