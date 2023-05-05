@@ -16,7 +16,7 @@ Colab notebook for running Alpaca GPT-4
 Repositiry of LLM (and other) AI models including:
   - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)  
   An acceptable substitute for ChatGPT. Actually performs better than ChatGPT on story writing, not so much with code generation and review. Was created using the ChatGPT dataset, so it has the same guardrails as ChatGPT, but can be easily jail\-broken \(see below\).
-  - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b),[pygmalion-7b-ggml-q4_2](https://huggingface.co/waifu-workshop/pygmalion-7b-ggml-q4_2)  
+  - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b), [pygmalion-7b-ggml-q4_2](https://huggingface.co/waifu-workshop/pygmalion-7b-ggml-q4_2)  
   An LLM model without the safeguards of ChatGPT. Has a tendency to produce NSFW content. \(In fact, the original of this model, PygmalionAI/pygmalion\-6b, is banned on Google Colab. Use alternate repositories like waifu\-workshop.\)
   - [Hugging Face \- TheBloke/wizardLM-7B-GPTQ](https://huggingface.co/TheBloke/wizardLM-7B-GPTQ) _[wbits: 4, groupsize: 128, model type: llama]_  
 May have better code generating capabilities.
