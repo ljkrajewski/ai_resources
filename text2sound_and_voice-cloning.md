@@ -3,6 +3,8 @@
 Tortoise is a text-to-speech program built with the following priorities: strong multi-voice capabilities, and highly realistic prosody and intonation. This repo contains all the code needed to run Tortoise TTS in inference mode.
 - [jnordberg/tortoise-tts](https://github.com/jnordberg/tortoise-tts)  
 A _much_ older fork of **neonbjb/tortoise-tts**. Includes link to a [Google Colab notebook](https://colab.research.google.com/drive/1wVVqUPqwiDBUVeWWOUNglpGhU3hg_cbR?usp=sharing). Also has a [YouTube tutorial](https://www.youtube.com/watch?v=Ci8NaeFCUz4).
+- [speechbrain/tts-tacotron2-ljspeech](https://huggingface.co/speechbrain/tts-tacotron2-ljspeech)  
+A pre-trained model takes in input a short text and produces a spectrogram in output. One can get the final waveform by applying a vocoder (e.g., HiFIGAN) on top of the generated spectrogram. Works with [SpeechBrain](https://speechbrain.github.io/).
 - [coqui-ai/TTS](https://github.com/coqui-ai/tts)  
 _GPU does not appear to be required._ 🐸TTS is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality. 🐸TTS comes with pretrained models, tools for measuring dataset quality and already used in 20+ languages for products and research projects. 
 - [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)  
