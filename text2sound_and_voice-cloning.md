@@ -1,4 +1,4 @@
-# Text-to-Sound Generation
+# Text-to-Sound Generation & Voice Cloning
 - [coqui-ai/TTS](https://github.com/coqui-ai/tts) _GPU not required._  
 🐸TTS is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality. 🐸TTS comes with pretrained models, tools for measuring dataset quality and already used in 20+ languages for products and research projects. 
 - [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)  
