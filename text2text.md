@@ -11,7 +11,7 @@ Colab notebook for running Alpaca GPT-4
 
 ## Web User Interfaces (Github)
 - [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)  
-A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA. Its goal is to become the AUTOMATIC1111/stable-diffusion-webui of text generation.
+A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA. Its goal is to become the AUTOMATIC1111/stable-diffusion-webui of text generation. List of extra parameters [here](https://github.com/oobabooga/text-generation-webui#starting-the-web-ui).
 - [TavernAI/TavernAI](https://github.com/TavernAI/TavernAI)  
 TavernAI is a adventure atmospheric chat (KoboldAI, NovelAI, Pygmalion, OpenAI).
 
