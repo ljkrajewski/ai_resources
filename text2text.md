@@ -31,7 +31,7 @@ May have better code generating capabilities.
   - [Hugging Face \- TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g](https://huggingface.co/TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g)
   - [Hugging Face \- mosaicml/mpt-7b-storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter)  
 Designed to read and write fictional stories with super long context lengths. It was built by finetuning MPT-7B with a context length of 65k tokens on a filtered fiction subset of the books3 dataset. _See also [Chat](https://huggingface.co/mosaicml/mpt-7b-chat), [Instruct](https://huggingface.co/mosaicml/mpt-7b-instruct), and [Base](https://huggingface.co/mosaicml/mpt-7b) models_
-    - [Hugging Face \- 4bit/mpt-7b-storywriter-4bit-128g](https://huggingface.co/4bit/mpt-7b-storywriter-4bit-128g): 4-bit version of mpt-7b-storywriter.
+    - [Hugging Face \- OccamRazor/mpt-7b-storywriter-4bit-128g](https://huggingface.co/OccamRazor/mpt-7b-storywriter-4bit-128g): 4-bit version of mpt-7b-storywriter.
 - [The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)  
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 - [13 Open Source ChatGPT Models: Complete Guide](https://www.listendata.com/2023/03/open-source-chatgpt-models-step-by-step.html)  
