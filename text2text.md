@@ -18,6 +18,8 @@ TavernAI is a adventure atmospheric chat (KoboldAI, NovelAI, Pygmalion, OpenAI).
 ## Characters
 - [character.ai](https://beta.character.ai/) - Collection of characters you can import into [TavernAI](https://github.com/TavernAI/TavernAI) and similar chatbots.
 - [AI Character Editor](https://zoltanai.github.io/character-editor) - Edit characters.
+- JSON files for AI characters (not models, but can make your text-to-text more interesting):
+  - [botprompts.net](https://botprompts.net/)
 
 ## Models
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
@@ -36,8 +38,6 @@ Designed to read and write fictional stories with super long context lengths. It
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 - [13 Open Source ChatGPT Models: Complete Guide](https://www.listendata.com/2023/03/open-source-chatgpt-models-step-by-step.html)  
 Explains how Open Source ChatGPT Models work and how you can run them. Covers 13 different open source models, namely LLaMA, Alpaca, GPT4All, GPT4All-J, Dolly 2, Cerebras-GPT, GPT-J 6B, Vicuna, Alpaca GPT-4, OpenChatKit, ChatRWKV, Flan-T5 and OPT.
-- JSON files for AI characters (not models, but can make your text-to-text more interesting):
-  - [botprompts.net](https://botprompts.net/)
   
 ----
 ## Jail-breaking Vicuna
