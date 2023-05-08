@@ -48,7 +48,7 @@ To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a 
 ~~~
 then press _Generate_ to let Vicuna finish the response.
 
-## Using MPT-7B-storywriter in Oobabooga
+## Using mpt-7b-storywriter-4bit-128g in Oobabooga
 - _(to be tested)_ extra parameters:  ```--trust-remote-code --wbits 4 --groupsize 128```
 
 ## ChatGPT 3.5/4 resources
