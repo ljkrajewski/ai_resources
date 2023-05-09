@@ -1,6 +1,6 @@
 "Good artists copy; great artists steal." --[attribution unknown ](https://quoteinvestigator.com/2013/03/06/artists-steal/)
 ----
-[Paragraph on case about Google vs. Perfect 10 (image thumbnails)]
+[Paragraph on case about [Google vs. Perfect 10](https://www.eff.org/cases/perfect-10-v-google) (image thumbnails)]
 ```
 The two most famous of these cases involve Google,
 and the first case is called Perfect 10 vs Google
@@ -29,7 +29,7 @@ smaller thumbnails was not the same purpose
 that people were using the original images for.
 ```
 
-[Paragraph on case about Google vs. Authors Guild (Google books)]
+[Paragraph on case about [Google vs. Authors Guild](https://en.wikipedia.org/wiki/Authors_Guild,_Inc._v._Google,_Inc.) (Google books)]
 ```
 The second similar case is called the Google Books Case,
 which is the Authors Guild vs Google.
