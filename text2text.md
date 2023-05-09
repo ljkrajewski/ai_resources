@@ -1,7 +1,7 @@
 # Text-to-Text Generation
 
 ## Google Colab Notebooks
-- https://colab.research.google.com/github/81300/AI-Notebooks/blob/main/Colab-TextGen-GPU.ipynb  
+- [81300's TextGen Notebook](https://colab.research.google.com/github/81300/AI-Notebooks/blob/main/Colab-TextGen-GPU.ipynb)  
 The Colab notebook that I've had the most success with. To use, enter the organization, model, and branch for the [HuggingFace](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads) model you wish to use. Read the model card for any additional directions and extra tags.
 - [GPT4-x-alpaca-13b.ipynb](https://colab.research.google.com/drive/1d3Q04biTjH-dL0BoLbhs1B7EEyNz7iD6?usp=sharing)  
 Colab notebook for running Alpaca GPT-4
