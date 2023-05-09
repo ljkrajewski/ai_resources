@@ -1,3 +1,5 @@
+"Good artists copy; great artists steal." --[attribution unknown ](https://quoteinvestigator.com/2013/03/06/artists-steal/)
+----
 [Paragraph on case about Google vs. Perfect 10 (image thumbnails)]
 ```
 The two most famous of these cases involve Google,
