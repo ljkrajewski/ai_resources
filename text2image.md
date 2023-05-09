@@ -8,6 +8,8 @@
  [Alternative GC Dreambooth notebook](https://colab.research.google.com/github/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb)
 - [How to Use Stable Diffusion to Generate Images (CPU)](https://colab.research.google.com/drive/1NA8XytvxOT841JtaTao896Gm_SFT66N4?usp=sharing&ref=assemblyai.com#scrollTo=6yCG-zQL9ByF)  
 Run Stable Diffusion without a GPU, but takes 8 minutes to generate a 512x512 image while being a memory hog.
+- [How to Use Stable Diffusion to Generate Images](https://colab.research.google.com/drive/1uWCe41_BSRip4y4nlcB8ESQgKtr5BfrN?usp=sharing)  
+Installing Stable Diffusion on Google Colab (so you can have a GPU).
 
 ## Models
 - [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)
