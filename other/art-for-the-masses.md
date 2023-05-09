@@ -71,6 +71,6 @@ _[fill]_
 
 1. Actual artists. These are the people being displaced by the current wave of technological advancement, and while my heart goes out to them, the fact is they will have to do the same thing past generations of technologically displaced people had to do: adapt. Learn these new tools  
 
-2. Companies who sell art. 
+2. Companies who sell other people's art. These include art galleries and companies that sell stock photos. I don't worry about these companies. They're not going to disappear; they'll just find something else to sell. That's what companies do.
 
-3. The "artistes d'élite". These are the self-appointed elites of the artistic community upset that us unwashed masses are touching their precious things.
+3. The _artistes d'élite_. These are the self-appointed elites of the artistic community upset that us unwashed masses are touching their precious things.
