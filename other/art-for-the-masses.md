@@ -60,10 +60,10 @@ What could be more transformative than the democratization of creativity?
 Over the decades, the technology behind art has continued to advance, from changes in the composition of matierials to advances in techniques to the use of computers and digital automation. We have moved from charcoal, paint, and stone to Photoshop, Blender, and 3D printing. AI is the next natrual advancement in how we express ourselves.
 
 Now, I'm not a lawyer, so 
-
+----
 _[fill]_
 - _compair current wave of anti-AI artists w/ the original [Luddites](https://en.wikipedia.org/wiki/Luddite). Note the original Luddite complaint that "manufacturers who used machines in what they called 'a fraudulent and deceitful manner' to get around standard labour practices." (https://en.wikipedia.org/wiki/Luddite)_
-
+----
 3 groups of people affected by AI art and advice for them
 
 1. Actual artists. These are the people being displaced by the current wave of technological advancement, and while my heart goes out to them, the fact is they will have to do the same thing past generations of technologically displaced people had to do: adapt. Learn these new tools  
