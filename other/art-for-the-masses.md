@@ -62,10 +62,11 @@ Over the decades, the technology behind art has continued to advance, from chang
 Now, I'm not a lawyer, so 
 
 [fill]
+- _compair current wave of anti-AI artists w/ the original [Luddites](https://en.wikipedia.org/wiki/Luddite). Note the original Luddite complaint that "manufacturers who used machines in what they called 'a fraudulent and deceitful manner' to get around standard labour practices." (https://en.wikipedia.org/wiki/Luddite)
 
 3 groups of people affected by AI art and advice for them
 
-1. Actual artists. Every tecnological advance has displaced people. 19th centrury textile workers were displaced by factories. Buggie manufacturers are displaced by the automobile. Radio was displaced by broadcast television which was displaced by cable which was displaced by streaming. 
+1. Actual artists. These are the people being displaced by the current wave of technological advancement, and while my heart goes out to them, the fact is they will have to do the same thing past generations of technologically displaced people had to do: adapt. Learn these new tools  
 
 2. Companies who sell art. 
 
