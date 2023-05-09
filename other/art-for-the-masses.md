@@ -10,7 +10,7 @@ Over the decades, the technology behind art has continued to advance, from chang
 
 Now, I'm not a lawyer, so 
 
-~~~
+[fill]
 
 3 groups of people affected by AI art and advice for them
 
