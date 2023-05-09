@@ -61,8 +61,8 @@ Over the decades, the technology behind art has continued to advance, from chang
 
 Now, I'm not a lawyer, so 
 
-[fill]
-- _compair current wave of anti-AI artists w/ the original [Luddites](https://en.wikipedia.org/wiki/Luddite). Note the original Luddite complaint that "manufacturers who used machines in what they called 'a fraudulent and deceitful manner' to get around standard labour practices." (https://en.wikipedia.org/wiki/Luddite)
+_[fill]_
+- _compair current wave of anti-AI artists w/ the original [Luddites](https://en.wikipedia.org/wiki/Luddite). Note the original Luddite complaint that "manufacturers who used machines in what they called 'a fraudulent and deceitful manner' to get around standard labour practices." (https://en.wikipedia.org/wiki/Luddite)_
 
 3 groups of people affected by AI art and advice for them
 
