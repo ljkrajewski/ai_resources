@@ -38,6 +38,8 @@ Designed to read and write fictional stories with super long context lengths. It
     - [YouTube - Oobabooga Running MPT-7B-Storywriter. Huge Context, Commercially Permissive License From Mosiacml](https://www.youtube.com/watch?v=QVVb6Md6huA)  
 Setup instructions for running MPT-7B-Storywriter in Oobabooga web UI. See also [this Reddit post](https://www.reddit.com/r/Oobabooga/comments/13asvip/getting_mpt7b_chatinstructstorywriter_working_on/).
     - [Hugging Face \- OccamRazor/mpt-7b-storywriter-4bit-128g](https://huggingface.co/OccamRazor/mpt-7b-storywriter-4bit-128g): 4-bit GPTQ version of mpt-7b-storywriter. Can be used with [0cc4m/KoboldAI](https://github.com/0cc4m/KoboldAI) or [0cc4m/GPTQ-for-LLaMa](https://github.com/0cc4m/GPTQ-for-LLaMa) (or so I'm told).
+  - [Hugging Face \- ehartford/WizardLM-13B-Uncensored](https://huggingface.co/ehartford/WizardLM-13B-Uncensored)  
+WizardLM 13B UNCENSORED LLM. 4-bit version: [ausboss/WizardLM-13B-Uncensored-4bit-128g](https://huggingface.co/ausboss/WizardLM-13B-Uncensored-4bit-128g)
 - [The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)  
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 - [13 Open Source ChatGPT Models: Complete Guide](https://www.listendata.com/2023/03/open-source-chatgpt-models-step-by-step.html)  
