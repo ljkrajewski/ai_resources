@@ -35,6 +35,8 @@ May have better code generating capabilities.
   - [Hugging Face \- TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g](https://huggingface.co/TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g)
   - [Hugging Face \- mosaicml/mpt-7b-storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter)  
 Designed to read and write fictional stories with super long context lengths. It was built by finetuning MPT-7B with a context length of 65k tokens on a filtered fiction subset of the books3 dataset. _See also [Chat](https://huggingface.co/mosaicml/mpt-7b-chat), [Instruct](https://huggingface.co/mosaicml/mpt-7b-instruct), and [Base](https://huggingface.co/mosaicml/mpt-7b) models_
+    - [YouTube - Oobabooga Running MPT-7B-Storywriter. Huge Context, Commercially Permissive License From Mosiacml](https://www.youtube.com/watch?v=QVVb6Md6huA)  
+Setup instructions for running MPT-7B-Storywriter in Oobabooga web UI.
     - [Hugging Face \- OccamRazor/mpt-7b-storywriter-4bit-128g](https://huggingface.co/OccamRazor/mpt-7b-storywriter-4bit-128g): 4-bit GPTQ version of mpt-7b-storywriter. Can be used with [0cc4m/KoboldAI](https://github.com/0cc4m/KoboldAI) or [0cc4m/GPTQ-for-LLaMa](https://github.com/0cc4m/GPTQ-for-LLaMa) (or so I'm told).
 - [The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)  
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
