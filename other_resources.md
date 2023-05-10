@@ -24,6 +24,10 @@ GPU rental with Jupyter Notebook. Not free; starts at $0.20/hour.
 - [Paperspace](https://www.paperspace.com/pricing)  
 Includes a free-tier w/ GPU.
 
+## YouTube tutorials
+- [Personal AI Chatbot: Oobabooga With Stable Diffusion API for Image Generation + Text To Speech](https://www.youtube.com/watch?v=G6sDNpcgrbc)
+- [Automatic1111 + Oobabooga = Exchange Images with your ChatBot!](https://www.youtube.com/watch?v=x5VUidEMDDI)
+
 ## Other stuff
 - [OpenAI/Whisper](https://github.com/openai/whisper)  
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
