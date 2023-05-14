@@ -21,6 +21,7 @@ Repository of Stable Diffusion models including:
     - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
     - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
     - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)
+- VAE: [gemasai/vae-ft-mse-840000-ema-pruned](https://huggingface.co/gemasai/vae-ft-mse-840000-ema-pruned/tree/main)
 
 ## Training/Tutorials/Etc.
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
@@ -31,6 +32,7 @@ Covers LLM and graphic AI. Generally includes instructions for local installatio
 - ["Borrow" Any Pose For Your AI Art! (Easy Tutorial) - YouTube](https://www.youtube.com/watch?v=p57iJeqGEoo)
 - [Perfect hands in Stable Diffusion AI - YouTube](https://www.youtube.com/watch?v=IPmxnMTFVtY)  
 Hands are a problem even with the best of prompts. This walks you through using the PoseX and Depth Library extentions to fix them.
+- [Stable Diffusion - Better Fine Details with a new VAE! (Variational Autoencoder) - YouTube](https://www.youtube.com/watch?v=QFFQi5Jd4I4)
 
 ## Negative prompts
 - basic negative prompt
