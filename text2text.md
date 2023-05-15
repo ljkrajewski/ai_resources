@@ -57,7 +57,10 @@ WizardLM 13B UNCENSORED LLM. 4-bit version: [ausboss/WizardLM-13B-Uncensored-4bi
   _This looks pretty interesting. Haven't played with it, but seems to be worth a look._
 - [13 Open Source ChatGPT Models: Complete Guide](https://www.listendata.com/2023/03/open-source-chatgpt-models-step-by-step.html)  
 Explains how Open Source ChatGPT Models work and how you can run them. Covers 13 different open source models, namely LLaMA, Alpaca, GPT4All, GPT4All-J, Dolly 2, Cerebras-GPT, GPT-J 6B, Vicuna, Alpaca GPT-4, OpenChatKit, ChatRWKV, Flan-T5 and OPT.
-  
+ 
+## Training/Tutorials/Etc.
+- [Nerdy Rodent channel - YouTube](https://www.youtube.com/@NerdyRodent)
+
 ----
 ## Jail-breaking Vicuna
 To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a human followed by the first few words of the assistant's response. For example, to get Vicuna to tell you how to make a bomb, structure your prompt like this:
