@@ -21,6 +21,7 @@ assert False
 GPU rental with Jupyter Notebook. Not free; starts at $0.20/hour.
   - [How to run Stable Diffusion with no fuss on RunPod](https://blog.runpod.io/stable-diffusion-ui-on-runpod/)
   - [How to Get Really Good Results with Dreambooth](https://blog.runpod.io/how-to-get-really-good-results-with-dreambooth-on-runpod/)
+  - [Ultimate RunPod Tutorial For Stable Diffusion - Automatic1111 - Data Transfers, Extensions, CivitAI - YouTube](https://www.youtube.com/watch?v=QN1vdGhjcRc)
 - [Paperspace](https://www.paperspace.com/pricing)  
 Includes a free-tier w/ GPU.
 
