@@ -17,6 +17,15 @@ A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, 
 - [TavernAI/TavernAI](https://github.com/TavernAI/TavernAI)  
 TavernAI is a adventure atmospheric chat (KoboldAI, NovelAI, Pygmalion, OpenAI).
 
+## Using Runpod
+- [Spin up a Text Generation Pod with Vicuna - Runpod](https://blog.runpod.io/spin-up-a-text-generation-pod-with-vicuna-and-experience-a-gpt-4-rival/)
+- [Setting up a ChatBot with the Oobabooga Text Generation - Runpod](https://blog.runpod.io/setting_up_oobabooga_chatbot/)
+- [John Knox - Runpod](https://blog.runpod.io/author/john/)  
+In this post we'll walk through setting up a pod on RunPod using a template that will run Oobabooga's Text Generation WebUI
+- [RunPod Blog - Runpod](https://blog.runpod.io/)  
+In this post we'll walk through setting up a pod on RunPod using a template that will run Oobabooga's Text Generation WebUI with the Pygmalion 6B chatbot.
+- [How to set up a pod on RunPod to run Oobabooga and Pygmalion - Reddit](https://www.reddit.com/r/PygmalionAI/comments/12tutou/how_to_set_up_a_pod_on_runpod_to_run_oobabooga/)
+
 ## Characters
 - [character.ai](https://beta.character.ai/) - Collection of characters you can import into [TavernAI](https://github.com/TavernAI/TavernAI) and similar chatbots.
 - [AI Character Editor](https://zoltanai.github.io/character-editor) - Edit characters.
