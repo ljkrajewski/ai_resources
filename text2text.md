@@ -17,7 +17,7 @@ A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, 
 - [TavernAI/TavernAI](https://github.com/TavernAI/TavernAI)  
 TavernAI is a adventure atmospheric chat (KoboldAI, NovelAI, Pygmalion, OpenAI).
 - [Cohee1207/SillyTavern](https://github.com/Cohee1207/SillyTavern)  
-SillyTavern is a fork of TavernAI 1.2.8 which is under more active development and has added many major features. At this point, they can be thought of as completely independent programs.
+SillyTavern is a fork of TavernAI 1.2.8 which is under more active development and has added many major features. At this point, they can be thought of as completely independent programs.  [Read an article about SillyTavern.](https://www.dotcommagazine.com/2023/04/silly-tavern-ai-the-quirky-addition-to-the-hospitality-industry/)
 
 ## Using Runpod
 - [Spin up a Text Generation Pod with Vicuna - Runpod](https://blog.runpod.io/spin-up-a-text-generation-pod-with-vicuna-and-experience-a-gpt-4-rival/)
