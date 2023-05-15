@@ -12,15 +12,16 @@ Run Stable Diffusion without a GPU, but takes 8 minutes to generate a 512x512 im
 Installing Stable Diffusion on Google Colab (so you can have a GPU).
 
 ## Models
-- [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)
+- [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)  
+Produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image.
 - [Civitai](https://civitai.com/)  
 Repository of Stable Diffusion models including:
   - [Set of photorealistic models to browse](https://civitai.com/tag/photorealistic)
   - Best models (IMO):
-    - [Level4](https://civitai.com/models/17449/level4)
-    - [ChilloutMix](https://civitai.com/models/6424/chilloutmix)  
-    - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release)
-    - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette)
+    - [Level4](https://civitai.com/models/17449/level4) _[[Download link]](https://civitai.com/api/download/models/25295)_
+    - [ChilloutMix](https://civitai.com/models/6424/chilloutmix) _[Download link to come]_ Warning: NSFW content.
+    - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release) _[[Download link]](https://civitai.com/api/download/models/4048)_
+    - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette) _[[Download link]](https://civitai.com/api/download/models/19969)_
 - VAE: [gemasai/vae-ft-mse-840000-ema-pruned](https://huggingface.co/gemasai/vae-ft-mse-840000-ema-pruned/tree/main)
 
 ## Training/Tutorials/Etc.
