@@ -22,6 +22,7 @@ Repository of Stable Diffusion models including:
     - [ChilloutMix](https://civitai.com/models/6424/chilloutmix) _[Download link to come]_ Warning: NSFW content.
     - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release) _[[Download link]](https://civitai.com/api/download/models/4048)_
     - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette) _[[Download link]](https://civitai.com/api/download/models/19969)_
+    - [Edge Of Realism](https://civitai.com/models/21813/edge-of-realism) _[[Download link]](https://civitai.com/api/download/models/51913)_
 - VAE: [gemasai/vae-ft-mse-840000-ema-pruned](https://huggingface.co/gemasai/vae-ft-mse-840000-ema-pruned/tree/main)
 
 ## Training/Tutorials/Etc.
