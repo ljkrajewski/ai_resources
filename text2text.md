@@ -60,6 +60,9 @@ Explains how Open Source ChatGPT Models work and how you can run them. Covers 13
  
 ## Training/Tutorials/Etc.
 - [Nerdy Rodent channel - YouTube](https://www.youtube.com/@NerdyRodent)
+- [Understanding the Main Architecture and Tasks - Ahead of AI](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
+- [Neural Machine Translation by Jointly Learning to Align and Translate (paper)](https://arxiv.org/abs/1409.0473)
+- [Finetuning Large Language Models - Ahead of AI](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)
 
 ----
 ## Jail-breaking Vicuna
