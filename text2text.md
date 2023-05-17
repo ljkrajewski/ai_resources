@@ -65,10 +65,14 @@ WizardLM 13B UNCENSORED LLM. 4-bit version: [ausboss/WizardLM-13B-Uncensored-4bi
 Explains how Open Source ChatGPT Models work and how you can run them. Covers 13 different open source models, namely LLaMA, Alpaca, GPT4All, GPT4All-J, Dolly 2, Cerebras-GPT, GPT-J 6B, Vicuna, Alpaca GPT-4, OpenChatKit, ChatRWKV, Flan-T5 and OPT.
  
 ## Training/Tutorials/Etc.
-- [Nerdy Rodent channel - YouTube](https://www.youtube.com/@NerdyRodent)
-- [Understanding the Main Architecture and Tasks - Ahead of AI](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
-- [Neural Machine Translation by Jointly Learning to Align and Translate (paper)](https://arxiv.org/abs/1409.0473)
-- [Finetuning Large Language Models - Ahead of AI](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)
+- Video:
+  - [Nerdy Rodent channel - YouTube](https://www.youtube.com/@NerdyRodent)
+- Articles/papers:
+  - [Google AI Documents Leak “We Have No Moat, And Neither Does OpenAI”](https://natural20.com/google-ai-documents-leak/)  
+A leaked document from a researcher in Google. Discusses how AI LLMs have developed from being closed off to larger developers to cheap and available to individual experimenters over the course of _two months_.
+  - [Understanding the Main Architecture and Tasks - Ahead of AI](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
+  - [Neural Machine Translation by Jointly Learning to Align and Translate (paper)](https://arxiv.org/abs/1409.0473)
+  - [Finetuning Large Language Models - Ahead of AI](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)
 
 ----
 ## Jail-breaking Vicuna
