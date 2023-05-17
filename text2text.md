@@ -20,6 +20,11 @@ TavernAI is a adventure atmospheric chat (KoboldAI, NovelAI, Pygmalion, OpenAI).
 SillyTavern is a fork of TavernAI 1.2.8 which is under more active development and has added many major features. At this point, they can be thought of as completely independent programs.  [Read an article about SillyTavern.](https://www.dotcommagazine.com/2023/04/silly-tavern-ai-the-quirky-addition-to-the-hospitality-industry/)
 
 ## Using Runpod
+Tip: When spinning up a Runpod instance for text generation, use:
+- 50GB continainer minimum size
+- 150-200GB volume minimum size  
+  
+Articles about using Runpod:
 - [Spin up a Text Generation Pod with Vicuna - Runpod](https://blog.runpod.io/spin-up-a-text-generation-pod-with-vicuna-and-experience-a-gpt-4-rival/)
 - [Setting up a ChatBot with the Oobabooga Text Generation - Runpod](https://blog.runpod.io/setting_up_oobabooga_chatbot/)
 - [John Knox - Runpod](https://blog.runpod.io/author/john/)  
