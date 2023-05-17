@@ -74,7 +74,7 @@ A leaked document from a researcher in Google. Discusses how AI LLMs have develo
   - [Neural Machine Translation by Jointly Learning to Align and Translate (paper)](https://arxiv.org/abs/1409.0473)
   - [Finetuning Large Language Models - Ahead of AI](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)
 - [Transformers Agent - Hugging Face](https://huggingface.co/docs/transformers/transformers_agents)  
-Provides a natural language API on top of transformers: we define a set of curated tools and design an agent to interpret natural language and to use these tools. It is extensible by design; we curated some relevant tools, but we’ll show you how the system can be extended easily to use any tool developed by the community. ([Google Colab example](https://colab.research.google.com/drive/1c7MHD-T1forUPGcC_jlwsIptOzpG3hSj))
+Provides a natural language API on top of transformers: we define a set of curated tools and design an agent to interpret natural language and to use these tools. It is extensible by design; we curated some relevant tools, but we’ll show you how the system can be extended easily to use any tool developed by the community. ([Google Colab example](https://colab.research.google.com/drive/1c7MHD-T1forUPGcC_jlwsIptOzpG3hSj); [API docs](https://huggingface.co/docs/transformers/transformers_agents))
 
 ----
 ## Jail-breaking Vicuna
