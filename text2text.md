@@ -69,7 +69,7 @@ Explains how Open Source ChatGPT Models work and how you can run them. Covers 13
   - [Nerdy Rodent channel - YouTube](https://www.youtube.com/@NerdyRodent)
 - Articles/papers:
   - [Google AI Documents Leak “We Have No Moat, And Neither Does OpenAI”](https://natural20.com/google-ai-documents-leak/)  
-A leaked document from a researcher in Google. Discusses how AI LLMs have developed from being closed off to larger developers to cheap and available to individual experimenters over the course of _two months_.
+A leaked document from a researcher in Google. Discusses how AI LLMs have developed from being closed off to larger developers to cheap and available to individual experimenters over the course of _two months_. (Spoiler: It's because of the internet and the open source model.)
   - [Understanding the Main Architecture and Tasks - Ahead of AI](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
   - [Neural Machine Translation by Jointly Learning to Align and Translate (paper)](https://arxiv.org/abs/1409.0473)
   - [Finetuning Large Language Models - Ahead of AI](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)
