@@ -40,11 +40,11 @@ In this post we'll walk through setting up a pod on RunPod using a template that
 ## Models
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
 Repositiry of LLM (and other) AI models including:
-  - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)  
+  - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g) ```--wbits 4 --groupsize 128```  
   An acceptable substitute for ChatGPT. Actually performs better than ChatGPT on story writing, not so much with code generation and review. Was created using the ChatGPT dataset, so it has the same guardrails as ChatGPT, but can be easily jail\-broken \(see below\).
   - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b), [pygmalion-7b-ggml-q5_1](https://huggingface.co/waifu-workshop/pygmalion-7b-ggml-q5_1)  
   An LLM model without the safeguards of ChatGPT. Has a tendency to produce NSFW content. \(In fact, the original of this model, PygmalionAI/pygmalion\-6b, is banned on Google Colab. Use alternate repositories like waifu\-workshop.\)
-  - [**Hugging Face \- TheBloke/wizard-mega-13B-GPTQ**](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ) _[wbits: 4, groupsize: 128, model type: llama]_  
+  - [**Hugging Face \- TheBloke/wizard-mega-13B-GPTQ**](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ) ```--wbits 4 --groupsize 128 -model-type llama```  
 This repo contains 4bit GPTQ format quantised models of [OpenAccess AI Collective's Wizard Mega 13B](https://huggingface.co/openaccess-ai-collective/wizard-mega-13b).
   - [Hugging Face \- TheBloke/wizardLM-7B-GPTQ](https://huggingface.co/TheBloke/wizardLM-7B-GPTQ)  
 May have better code generating capabilities.
