@@ -40,11 +40,13 @@ In this post we'll walk through setting up a pod on RunPod using a template that
 ## Models
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
 Repositiry of LLM (and other) AI models including:
+  - [**Hugging Face \- TheBloke/guanaco-65B-GPTQ**](https://huggingface.co/TheBloke/guanaco-65B-GPTQ)  
+QLoRa model claiming 99% the power of ChatGPT.
   - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g) ```--wbits 4 --groupsize 128```  
   An acceptable substitute for ChatGPT. Actually performs better than ChatGPT on story writing, not so much with code generation and review. Was created using the ChatGPT dataset, so it has the same guardrails as ChatGPT, but can be easily jail\-broken \(see below\).
   - [Hugging Face \- waifu\-workshop/pygmalion\-6b](https://huggingface.co/waifu-workshop/pygmalion-6b), [pygmalion-7b-ggml-q5_1](https://huggingface.co/waifu-workshop/pygmalion-7b-ggml-q5_1)  
   An LLM model without the safeguards of ChatGPT. Has a tendency to produce NSFW content. \(In fact, the original of this model, PygmalionAI/pygmalion\-6b, is banned on Google Colab. Use alternate repositories like waifu\-workshop.\)
-  - [**Hugging Face \- TheBloke/wizard-mega-13B-GPTQ**](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ) ```--wbits 4 --groupsize 128 -model-type llama```  
+  - [Hugging Face \- TheBloke/wizard-mega-13B-GPTQ](https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ) ```--wbits 4 --groupsize 128 -model-type llama```  
 This repo contains 4bit GPTQ format quantised models of [OpenAccess AI Collective's Wizard Mega 13B](https://huggingface.co/openaccess-ai-collective/wizard-mega-13b).
   - [Hugging Face \- TheBloke/wizardLM-7B-GPTQ](https://huggingface.co/TheBloke/wizardLM-7B-GPTQ)  
 May have better code generating capabilities.
@@ -79,6 +81,23 @@ Provides a natural language API on top of transformers: we define a set of curat
 The WebUI seeks to make training your own LoRAs as easy as possible.
 
 ----
+## Running latest textgen AI on RunPod
+- Start a pod w/ at least 24GB of VRAM (48GB for larger LLMs) and a volume HD size of 50GB.
+- Start the web terminal, then open it.
+- Run the following commands one at a time.
+```
+git pull
+pip install -r requirements.txt
+mkdir repositories
+cd repositories
+git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda
+cd GPTQ-for-LLaMa && python setup_cuda.py install
+cd /text-generation-webui
+pip install scipy
+python server.py --share --chat --auto-devices --model llama
+```
+- Click the gradio link to open the web UI.
+
 ## Jail-breaking Vicuna
 To jailbreak Vicuna in Notebook mode, structure your prompt as a request from a human followed by the first few words of the assistant's response. For example, to get Vicuna to tell you how to make a bomb, structure your prompt like this:
 ~~~
