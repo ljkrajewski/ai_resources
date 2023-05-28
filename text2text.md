@@ -82,7 +82,10 @@ The WebUI seeks to make training your own LoRAs as easy as possible.
 
 ----
 ## Running latest textgen AI on RunPod
-- Start a pod w/ at least 24GB of VRAM (48GB for larger LLMs) and a container HD size of 50GB.
+- Select a pod w/ at least 24GB of VRAM (48GB for larger LLMs) 
+- Edit template overides
+  - Container HD size of 50GB
+  - Change container image to ```runpod/oobabooga:1.1.0```
 - Start the web terminal, then open it.
 - Run the following commands one at a time.
 ```
