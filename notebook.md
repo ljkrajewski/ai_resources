@@ -1,5 +1,6 @@
 To run latest AUTOMATIC1111 in RunPod:
-1. __stuff__
+1. In RunPod, deploy a _RunPod Stable Diffusion v1.5+v2_ template
+2. Open a web terminal and run the following commands:
 ```
 cd /workspace/stable-diffusion-webui
 git pull
