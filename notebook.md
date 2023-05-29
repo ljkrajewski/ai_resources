@@ -1,6 +1,7 @@
 To run latest AUTOMATIC1111 in RunPod:
 1. __stuff__
 ```
+cd /workspace/stable-diffusion-webui
 git pull
 pip install -r requirements.txt
 apt install wget git python3 python3-venv
