@@ -20,7 +20,7 @@ python launch.py --share
 2. Download the following extentions:
   - _start extentions here_
 
-To download a file from a website: curl _website_URL_ -o _local_filename_ -L  
+To download a file from a website: ```curl <website_URL> -o <local_filename> -L```
 For example:
 ```
 curl https://civitai.com/api/download/models/51913 -o edge-of-realism.safetensors -L
