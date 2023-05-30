@@ -62,4 +62,4 @@ filename="### local filename ###"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
 ```
-3. (optional) At Google Drive, set the file to restricted availability 
+3. (optional) At Google Drive, reset the file back to restricted availability 
