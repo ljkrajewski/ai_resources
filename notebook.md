@@ -1,6 +1,14 @@
 # Running the latest AI tools on RunPod
 _Note: This list is incomplete. Use at your own risk._
 
+## Table of Contents
+1. [Start here](#start-here)
+2. [Running the latest AUTOMATIC1111/Stable Diffusion](#running-the-latest-automatic1111stable-diffusion)
+3. [Running the latest LLM text2text models](#running-the-latest-llm-text2text-models)
+4. [Downloading to your RunPod instance](#downloading-to-your-runpod-instance)
+  1. [from URL link](#from-url-link)
+  2. [from Google Drive](#from-google-drive)
+
 ## Start here
 1. Go to [RunPod.io](https://runpod.io) and log in.
 2. Go to _Template Selection_ and pick _Tensorflow_ template.
@@ -40,7 +48,7 @@ For example:
 curl https://civitai.com/api/download/models/51913 -o edge-of-realism.safetensors -L
 ```
 
-### from Google Drive:
+### from Google Drive
 1. At Google Drive, set the file for public availability to anyone with the link.
 2. Create the folloing file on your destination:
 ```
