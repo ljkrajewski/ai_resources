@@ -13,8 +13,8 @@ _Note: This list is incomplete. Use at your own risk._
 1. Go to [RunPod.io](https://runpod.io) and log in.
 2. Go to _Template Selection_ and pick _Tensorflow_ template.
 3. Select a pod to start.  
-    * 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
-    * 24GB VRAM for most uses.
+    - 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
+    - 24GB VRAM for most uses.
 4. Set container size to 20GB
 5. Start the pod instance.
 
