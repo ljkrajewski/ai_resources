@@ -11,11 +11,11 @@ _Note: This list is incomplete. Use at your own risk._
 
 ## Start here
 1. Go to [RunPod.io](https://runpod.io) and log in.
-2. Go to _Template Selection_ and pick _Tensorflow_ template.
+2. Go to _Templates_ and pick the _RunPod Pytorch 2_ template.
 3. Select a pod to start.  
     - 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
     - 24GB VRAM for most uses.
-4. Set container size to 20GB
+4. Set container size to 50GB
 5. Start the pod instance.
 
 ## Running the latest AUTOMATIC1111/Stable Diffusion
@@ -36,11 +36,21 @@ python launch.py --share
 ```
 cd /workspace/
 git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
-
+cd text-generation-webui
+pip install -r requirements.txt
+git clone https://github.com/PanQiWei/AutoGPTQ
+cd AutoGPTQ
+pip install .
+pip install einops
+cd ..
+python server.py --share --chat --auto-devices --model llama --autogptq --trust-remote-code
 ```
 Alternative text generation UIs:
 - [Honkware/text-generation-webui](https://github.com/Honkware/text-generation-webui) [_[git clone link]_](https://github.com/Honkware/text-generation-webui.git)  
-Use with [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ).
+Use with [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ)
+  - Use with a 48GB VRAM GPU. 
+  - In the file _text-generation-webui/modules/AutoGPTQ_loader.py_, find the line ```'use_safetensors': use_safetensors,``` and add after it a new line reading ```'trust_remote_code': shared.args.trust_remote_code,```.  
+  - Make sure _auto-devices_, _bf16_, and _trust_remote_code_ are checked in the _model_ tab of the web UI.
 
 
 ## Downloading to your RunPod instance
