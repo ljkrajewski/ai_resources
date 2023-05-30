@@ -54,10 +54,10 @@ curl https://civitai.com/api/download/models/51913 -o edge-of-realism.safetensor
 
 ### from Google Drive
 1. At Google Drive, set the file for public availability to anyone with the link.
-2. Create the folloing file on your destination:
+2. Create the following file on your destination, replacing _fileid_ and _filename_ with their values:
 ```
 #!/usr/bin/env bash
-fileid="### file id from downoad URL ###"  #eg, 1AMQ1OndXcTxXwklOGJvK-A5uCGvHR4I7
+fileid="### file id from download URL ###"  #eg, 1AMQ1OndXcTxXwklOGJvK-A5uCGvHR4I7
 filename="### local filename ###"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
