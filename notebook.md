@@ -1,11 +1,13 @@
 # Running the latest AI tools on RunPod
+_Note: This list is incomplete. Use at your own risk._
 
+## Start here
 1. Go to [RunPod.io](https://runpod.io) and log in.
 2. Go to _Template Selection_ and pick _Tensorflow_ template.
-3. 
+3. _coming soon_
 
 ## Running the latest AUTOMATIC1111/Stable Diffusion
-2. Open a web terminal and run the following commands:
+1. Open a web terminal and run the following commands:
 ```
 cd /workspace/
 git clone stable-diffusion-webui
@@ -15,6 +17,8 @@ apt install wget git python3 python3-venv
 python install.py
 python launch.py --share
 ```
+2. Download the following extentions:
+  - _start extentions here_
 
 To download a file from a website: curl _website_URL_ -o _local_filename_ -L  
 For example:
