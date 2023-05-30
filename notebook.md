@@ -9,11 +9,11 @@ _Note: This list is incomplete. Use at your own risk._
 ## Running the latest AUTOMATIC1111/Stable Diffusion
 1. Open a web terminal and run the following commands:
 ```
+apt install wget git python3 python3-venv
 cd /workspace/
-git clone stable-diffusion-webui
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 pip install -r requirements.txt
-apt install wget git python3 python3-venv
 python install.py
 python launch.py --share
 ```
@@ -50,3 +50,4 @@ filename="### local filename ###"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
 ```
+3. (optional) At Google Drive, set the file to restricted availability 
