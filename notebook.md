@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python install.py
 python launch.py --share
 ```
-2. Download the following extentions:
+2. Download/install the following extentions:
   - _start extentions here_
 
 ## Running the latest LLM text2text models
