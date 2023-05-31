@@ -43,6 +43,10 @@ sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="-f --port 8080"/'
 Instructions: [How to Use LoRA Models with Automatic1111’s Stable Diffusion Web UI](https://www.kombitz.com/2023/02/09/how-to-use-lora-models-with-automatic1111s-stable-diffusion-web-ui/)
     - [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) ([_git clone link_](https://github.com/Mikubill/sd-webui-controlnet.git)) Multi-ControlNet  
 Instructions: [How to Use ControlNet with Automatic1111’s Stable Diffusion Web UI](https://www.kombitz.com/2023/02/18/how-to-use-controlnet-with-automatic1111-stable-diffusion-web-ui/)
+ControlNet models:
+      - [lllyasviel/ControlNet](https://huggingface.co/lllyasviel/ControlNet/tree/main/models)
+      - [lllyasviel/ControlNet-v1-1](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
+      - [TencentARC/T2I-Adapter](https://huggingface.co/TencentARC/T2I-Adapter/tree/main/models)
 
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
