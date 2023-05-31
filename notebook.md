@@ -26,8 +26,8 @@ apt install wget git python3 python3-venv
 cd /workspace/
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
 cd /workspace/stable-diffusion-webui/
-sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--port 8080"/' webui-user.sh
-su user ./webui.sh  # Need to find out what user is available on RunPod.
+sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="-f --port 8080"/' webui-user.sh
+./webui.sh
 
 # -- another set of instructions that may work... or not. idk. --
 #apt install wget git python3 python3-venv
