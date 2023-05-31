@@ -71,6 +71,8 @@ pip install bitsandbytes==0.38.1
 #cd ..
 #python server.py --share --chat --auto-devices --model llama --autogptq --trust-remote-code
 ```
+2. _Extentions to install?_
+
 Alternative text generation UIs:
 - [Honkware/text-generation-webui](https://github.com/Honkware/text-generation-webui) [_[git clone link]_](https://github.com/Honkware/text-generation-webui.git)  
 Use with [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ)
