@@ -42,7 +42,7 @@ su user ./webui.sh  # Need to find out what user is available on RunPod.
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
 cd /workspace/
-# May not need Conda. If not, skip to 'git clone ...'
+# May not need Conda. If not, skip to 'Install the UI'
 curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > "Miniconda3.sh"
 bash Miniconda3.sh
 conda create -n textgen python=3.10.9   # ??
