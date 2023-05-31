@@ -21,13 +21,19 @@ _Note: This list is incomplete. Use at your own risk._
 ## Running the latest AUTOMATIC1111/Stable Diffusion
 1. Open a web terminal and run the following commands:
 ```
-apt install wget git python3 python3-venv
+sudo apt install wget git python3 python3-venv
 cd /workspace/
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-cd stable-diffusion-webui
-pip install -r requirements.txt
-python install.py
-python launch.py --share
+bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
+./webui.sh
+
+# -- another set of instructions that may work... or not. --
+#apt install wget git python3 python3-venv
+#cd /workspace/
+#git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+#cd stable-diffusion-webui
+#pip install -r requirements.txt
+#python install.py
+#python launch.py --share
 ```
 2. Download/install the following extentions:
   - _start extentions here_
