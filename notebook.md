@@ -24,7 +24,7 @@ _Note: This list is incomplete. Use at your own risk._
 apt install wget git python3 python3-venv
 cd /workspace/
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
-su user ./webui.sh
+su user ./webui.sh  # Need to find out what user is available on RunPod.
 
 # -- another set of instructions that may work... or not. --
 #apt install wget git python3 python3-venv
