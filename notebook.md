@@ -72,23 +72,7 @@ filename="### local filename ###"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
 ```
-3. (optional) At Google Drive, reset the file back to restricted availability git pull
-pip install -r requirements.txt
- 
-mkdir repositories
-cd repositories
-git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda
-cd GPTQ-for-LLaMa && python setup_cuda.py install
- 
- 
-cd /text-generation-webui
- 
-pip install scipy
-pip install git+https://github.com/mnt4/flask-cloudflared
- 
-python server.py --share --chat --auto-devices --model llama --public-api --api
- 
-May have to run it twice to get the API link from cloudflare. once everything is installed, just run the python script. cntrl c then re run the command.
+3. (optional) At Google Drive, reset the file back to restricted availability.
 
 ----
 Run-Pod Sillytavern/Tavern.AI ([RUN TextGen AI WebUI LLM On Runpod & Colab! Cloud Computing POWER! - YouTube](https://www.youtube.com/watch?v=TP2yID7Ubr4))
