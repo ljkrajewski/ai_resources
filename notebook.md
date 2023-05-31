@@ -4,7 +4,7 @@ _Note: This list is incomplete. Use at your own risk._
 ## Table of Contents
 1. [Start here](#start-here)
 2. [Running the latest AUTOMATIC1111/Stable Diffusion](#running-the-latest-automatic1111stable-diffusion)
-3. [Running the latest LLM text2text models](#running-the-latest-llm-text2text-models)
+3. [Running the latest oobabooga/text-generation-webui](#running-the-latest-oobaboogatext-generation-webui)
 4. [Downloading to your RunPod instance](#downloading-to-your-runpod-instance)  
     a. [from URL link](#from-url-link)  
     b. [from Google Drive](#from-google-drive)
