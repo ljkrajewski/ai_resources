@@ -91,7 +91,7 @@ python server.py --share --chat --auto-devices --model llama --public-api --api
 May have to run it twice to get the API link from cloudflare. once everything is installed, just run the python script. cntrl c then re run the command.
 
 ----
-Run-Pod Sillytavern/Tavern.AI (RUN TextGen AI WebUI LLM On Runpod & Colab! Cloud Computing POWER!)
+Run-Pod Sillytavern/Tavern.AI ([RUN TextGen AI WebUI LLM On Runpod & Colab! Cloud Computing POWER! - YouTube](https://www.youtube.com/watch?v=TP2yID7Ubr4))
 ```
 git pull
 pip install -r requirements.txt
@@ -112,7 +112,7 @@ python server.py --share --chat --auto-devices --model llama --public-api --api
 May have to run it twice to get the API link from cloudflare. once everything is installed, just run the python script. cntrl c then re run the command.
 ```
 ----
-Falcon 40B runpod (FALCON 40B! The ULTIMATE AI Model For CODING & TRANSLATION!)
+Falcon 40B runpod ([FALCON 40B! The ULTIMATE AI Model For CODING & TRANSLATION! - YouTube](https://www.youtube.com/watch?v=WhrdJwEfWZE))
 ```
 
 
