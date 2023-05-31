@@ -21,10 +21,10 @@ _Note: This list is incomplete. Use at your own risk._
 ## Running the latest AUTOMATIC1111/Stable Diffusion
 1. Open a web terminal and run the following commands:
 ```
-sudo apt install wget git python3 python3-venv
+apt install wget git python3 python3-venv
 cd /workspace/
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
-./webui.sh
+su user ./webui.sh
 
 # -- another set of instructions that may work... or not. --
 #apt install wget git python3 python3-venv
