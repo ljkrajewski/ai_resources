@@ -130,7 +130,7 @@ cd /text-generation-webui
  
 python server.py --share --chat --auto-devices --model llama --autogptq --trust-remote-code
  
- 
-Edit text-generation-webui/modules/AutoGPTQ_loader.py add a new line after line 37:
-'trust_remote_code': shared.args.trust_remote_code,
+# -- No longer needed. Fixed in the current version of text-generation-webui --
+#Edit text-generation-webui/modules/AutoGPTQ_loader.py add a new line after line 37:
+#'trust_remote_code': shared.args.trust_remote_code,
 ```
