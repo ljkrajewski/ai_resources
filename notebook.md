@@ -44,9 +44,9 @@ Instructions: [How to Use LoRA Models with Automatic1111’s Stable Diffusion We
     - [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) ([_git clone link_](https://github.com/Mikubill/sd-webui-controlnet.git)) Multi-ControlNet  
 Instructions: [How to Use ControlNet with Automatic1111’s Stable Diffusion Web UI](https://www.kombitz.com/2023/02/18/how-to-use-controlnet-with-automatic1111-stable-diffusion-web-ui/)  
 ControlNet models:
-      - [lllyasviel/ControlNet](https://huggingface.co/lllyasviel/ControlNet/tree/main/models)
-      - [lllyasviel/ControlNet-v1-1](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
-      - [TencentARC/T2I-Adapter](https://huggingface.co/TencentARC/T2I-Adapter/tree/main/models)
+      - [lllyasviel/ControlNet - Hugging Face](https://huggingface.co/lllyasviel/ControlNet/tree/main/models)
+      - [lllyasviel/ControlNet-v1-1 - Hugging Face](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
+      - [TencentARC/T2I-Adapter - Hugging Face](https://huggingface.co/TencentARC/T2I-Adapter/tree/main/models)
 
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
