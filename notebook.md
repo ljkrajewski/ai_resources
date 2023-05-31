@@ -111,7 +111,7 @@ python server.py --share --chat --auto-devices --model llama --public-api --api
  
 May have to run it twice to get the API link from cloudflare. once everything is installed, just run the python script. cntrl c then re run the command.
 ```
-
+----
 Falcon 40B runpod (FALCON 40B! The ULTIMATE AI Model For CODING & TRANSLATION!)
 ```
 
