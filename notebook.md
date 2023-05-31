@@ -69,7 +69,7 @@ pip install .
 # Starting the UI.
 #conda activate textgen  # Don't use if not using Conda.
 cd /workspace/text-generation-webui
-python server.py --share --chat --auto-devices --model llama --trust-remote-code
+python server.py --share --chat --auto-devices --model llama --trust-remote-code  # Adjust options as needed.
 
 # -- another set of instructions that may work... or not. idk. --
 #git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
