@@ -26,7 +26,7 @@ cd /workspace/
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
 su user ./webui.sh  # Need to find out what user is available on RunPod.
 
-# -- another set of instructions that may work... or not. --
+# -- another set of instructions that may work... or not. idk. --
 #apt install wget git python3 python3-venv
 #cd /workspace/
 #git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
@@ -38,18 +38,37 @@ su user ./webui.sh  # Need to find out what user is available on RunPod.
 2. Download/install the following extentions:
   - _start extentions here_
 
-## Running the latest LLM text2text models
+## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
 cd /workspace/
-git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
+curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > "Miniconda3.sh"
+bash Miniconda3.sh
+conda create -n textgen python=3.10.9   # ??
+conda activate textgen   # ??
+
+# May not be needed because this is a 'RunPod Pytorch 2' instance.
+# See https://pytorch.org/get-started/locally/ for PyTorch  install cmd line.
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  #pip alternative
+
+git clone https://github.com/oobabooga/text-generation-webui
 cd text-generation-webui
 pip install -r requirements.txt
-git clone https://github.com/PanQiWei/AutoGPTQ
-cd AutoGPTQ
-pip install .
-pip install einops
-cd ..
-python server.py --share --chat --auto-devices --model llama --autogptq --trust-remote-code
+# Manual GPTQ install: https://github.com/oobabooga/text-generation-webui/blob/main/docs/GPTQ-models-(4-bit-mode).md
+pip install https://github.com/jllllll/GPTQ-for-LLaMa-Wheels/raw/Linux-x64/quant_cuda-0.0.0-cp310-cp310-linux_x86_64.whl
+pip install bitsandbytes==0.38.1
+
+# -- another set of instructions that may work... or not. idk. --
+#git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
+#cd text-generation-webui
+#pip install -r requirements.txt
+#git clone https://github.com/PanQiWei/AutoGPTQ
+#cd AutoGPTQ
+#pip install .
+#pip install einops
+#cd ..
+#python server.py --share --chat --auto-devices --model llama --autogptq --trust-remote-code
 ```
 Alternative text generation UIs:
 - [Honkware/text-generation-webui](https://github.com/Honkware/text-generation-webui) [_[git clone link]_](https://github.com/Honkware/text-generation-webui.git)  
