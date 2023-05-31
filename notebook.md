@@ -18,7 +18,7 @@ _Note: This list is incomplete. Use at your own risk._
 4. Set container size to 50GB
 5. Start the pod instance.
 
-## Running the latest AUTOMATIC1111/Stable Diffusion
+## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 1. Open a web terminal and run the following commands:
 ```
 apt install wget git python3 python3-venv
