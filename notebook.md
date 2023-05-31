@@ -53,12 +53,23 @@ conda activate textgen   # ??
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 #pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  #pip alternative
 
+# Install the UI
 git clone https://github.com/oobabooga/text-generation-webui
 cd text-generation-webui
 pip install -r requirements.txt
+
 # Manual GPTQ install: https://github.com/oobabooga/text-generation-webui/blob/main/docs/GPTQ-models-(4-bit-mode).md
 pip install https://github.com/jllllll/GPTQ-for-LLaMa-Wheels/raw/Linux-x64/quant_cuda-0.0.0-cp310-cp310-linux_x86_64.whl
 pip install bitsandbytes==0.38.1
+# Install AutoGPTQ
+#conda activate textgen   # ??
+git clone https://github.com/PanQiWei/AutoGPTQ.git && cd AutoGPTQ
+pip install .
+
+# Starting the UI.
+#conda activate textgen  # Don't use if not using Conda.
+cd /workspace/text-generation-webui
+python server.py --share --chat --auto-devices --model llama --trust-remote-code
 
 # -- another set of instructions that may work... or not. idk. --
 #git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
