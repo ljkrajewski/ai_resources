@@ -16,7 +16,8 @@ _Note: This list is incomplete. Use at your own risk._
     - 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
     - 24GB VRAM for most uses.
 4. Set container size to 50GB
-5. Start the pod instance.
+5. Open TCP port 8080
+6. Start the pod instance.
 
 ## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
@@ -69,7 +70,7 @@ pip install .
 # Starting the UI.
 #conda activate textgen  # Don't use if not using Conda.
 cd /workspace/text-generation-webui
-python server.py --share --chat --auto-devices --model llama --trust-remote-code  # Adjust options as needed.
+python server.py --port 8080 --chat --auto-devices --model llama --trust-remote-code  # Adjust options as needed.
 
 # -- another set of instructions that may work... or not. idk. --
 #git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
@@ -130,7 +131,7 @@ cd /text-generation-webui
 pip install scipy
 pip install git+https://github.com/mnt4/flask-cloudflared
  
-python server.py --share --chat --auto-devices --model llama --public-api --api
+python server.py --port 8080 --chat --auto-devices --model llama --public-api --api
  
 May have to run it twice to get the API link from cloudflare. once everything is installed, just run the python script. cntrl c then re run the command.
 ```
