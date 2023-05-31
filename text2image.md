@@ -35,6 +35,8 @@ Covers LLM and graphic AI. Generally includes instructions for local installatio
 - [Perfect hands in Stable Diffusion AI - YouTube](https://www.youtube.com/watch?v=IPmxnMTFVtY)  
 Hands are a problem even with the best of prompts. This walks you through using the PoseX and Depth Library extentions to fix them.
 - [Stable Diffusion - Better Fine Details with a new VAE! (Variational Autoencoder) - YouTube](https://www.youtube.com/watch?v=QFFQi5Jd4I4)
+- [cloneofsimo/lora-training](https://replicate.com/cloneofsimo/lora-training)  
+LoRA model trainer with presets for faces, objects, and styles. Read the how-to [here](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion).
 
 ## Negative prompts
 - basic negative prompt
