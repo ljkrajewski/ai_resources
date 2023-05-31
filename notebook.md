@@ -39,7 +39,7 @@ su user ./webui.sh  # Need to find out what user is available on RunPod.
 #python launch.py --share
 ```
 2. Download/install the following extentions:
-  - _start extentions here_
+  - [kohya-ss/sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks) ([_git clone line_](https://github.com/kohya-ss/sd-webui-additional-networks.git)) To use LoRA models.
 
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
