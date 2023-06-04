@@ -11,7 +11,7 @@ _Note: This list is incomplete. Use at your own risk._
 
 ## Start here
 1. Go to [RunPod.io](https://runpod.io) and log in.
-2. Go to _Templates_ and pick the _RunPod Pytorch 2_ template.
+2. Go to _Templates_ and pick the _RunPod Pytorch 2.0.1_ template.
 3. Select a pod to start.  
     - 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
     - 24GB VRAM for most uses.
