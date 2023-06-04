@@ -22,11 +22,16 @@ _Note: This list is incomplete. Use at your own risk._
 ## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
-apt install wget git python3 python3-venv
-cd /workspace/
+apt install wget git python3 python3-venv -y
+useradd -U -d /home/user -s /bin/bash user
+mkdir /home/user && chown user:user /home/user && chmod 750 /home/user
+chown user:user /workspace
+su user
+cd /workspace
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
 cd /workspace/stable-diffusion-webui/
-sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="-f --xformers --port 8080"/' webui-user.sh
+#sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="-f --xformers --port 8080"/' webui-user.sh
+sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--xformers --share"/' webui-user.sh
 ./webui.sh
 
 # -- another set of instructions that may work... or not. idk. --
