@@ -27,6 +27,8 @@ cd /workspace
 git clone https://github.com/ljkrajewski/runpod_ai.git
 ```
 2. Open Jupyter Notebook, then run _/workstation/runpod_ai/stable_diffusion-A1111.ipynb_
+    - _TODO: write about user-modifiable sections_ 
+4. When the "Running on public URL:" line appears, click on the _gradio.live_ link to enter your Automatic 1111 session.
 
 ### Method 2: Manual
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
