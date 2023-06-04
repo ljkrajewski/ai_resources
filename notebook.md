@@ -29,6 +29,7 @@ chown user:user /workspace
 su user
 cd /workspace
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
+# <ctrl>-c to stop webui.sh when you get to "Model loaded in..."
 cd /workspace/stable-diffusion-webui/
 #sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="-f --xformers --port 8080"/' webui-user.sh
 sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--xformers --enable-insecure-extension-access"/' webui-user.sh
