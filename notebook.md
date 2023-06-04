@@ -16,7 +16,7 @@ _Note: This list is incomplete. Use at your own risk._
     - 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
     - 24GB VRAM for most uses.
 4. Set container size to 50GB
-5. Open TCP port 8080
+5. Open TCP port 8080, 7860
 6. Start the pod instance.
 
 ## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
@@ -32,16 +32,9 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 cd /workspace/stable-diffusion-webui/
 #sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="-f --xformers --port 8080"/' webui-user.sh
 sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--xformers --share"/' webui-user.sh
-./webui.sh
-
-# -- another set of instructions that may work... or not. idk. --
-#apt install wget git python3 python3-venv
-#cd /workspace/
-#git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-#cd stable-diffusion-webui
-#pip install -r requirements.txt
-#python install.py
-#python launch.py --share
+## TODO: check on cmd line flags to allow extentions to run
+./webui.sh &
+## TODO: how to download models
 ```
 2. Download/install the following extentions:
     - [kohya-ss/sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks) ([_git clone link_](https://github.com/kohya-ss/sd-webui-additional-networks.git)) To use LoRA models.  
@@ -52,6 +45,11 @@ ControlNet models:
       - [lllyasviel/ControlNet - Hugging Face](https://huggingface.co/lllyasviel/ControlNet/tree/main/models)
       - [lllyasviel/ControlNet-v1-1 - Hugging Face](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
       - [TencentARC/T2I-Adapter - Hugging Face](https://huggingface.co/TencentARC/T2I-Adapter/tree/main/models)
+3. Download any models you want to use.
+```
+cd /workspace/stable-diffusion-webui/models/Stable-diffusion
+curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safetensors" -L
+```
 
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
