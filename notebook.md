@@ -22,7 +22,7 @@ _Note: This list is incomplete. Use at your own risk._
 ## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
-apt install wget git python3 python3-venv -y
+apt install vim wget git python3 python3-venv -y
 useradd -U -d /home/user -s /bin/bash user
 mkdir /home/user && chown user:user /home/user && chmod 750 /home/user
 chown user:user /workspace
@@ -34,7 +34,6 @@ cd /workspace/stable-diffusion-webui/
 sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--xformers --share"/' webui-user.sh
 ## TODO: check on cmd line flags to allow extentions to run
 ./webui.sh &
-## TODO: how to download models
 ```
 2. Download/install the following extentions:
     - [kohya-ss/sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks) ([_git clone link_](https://github.com/kohya-ss/sd-webui-additional-networks.git)) To use LoRA models.  
@@ -121,6 +120,8 @@ curl https://civitai.com/api/download/models/51913 -o edge-of-realism.safetensor
 #!/usr/bin/env bash
 fileid="### file id from download URL ###"  #eg, 1AMQ1OndXcTxXwklOGJvK-A5uCGvHR4I7
 filename="### local filename ###"
+cd /workspace/stable-diffusion-webui/models/Stable-diffusion/  #if downloading a checkpoint
+#cd /workspace/stable-diffusion-webui/models/Lora  #if downloading a Lora
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
 ```
