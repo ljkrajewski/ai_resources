@@ -16,7 +16,7 @@ _Note: This list is incomplete. Use at your own risk._
     - 48GB+ VRAM for 13B+ LLMs or hi-res Stable Diffusion pictures.
     - 24GB VRAM for most uses.
 4. Set container size to 50GB
-5. Open TCP port 8080, 7860
+5. Open HTTP ports 8080, 7860
 6. Start the pod instance.
 
 ## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
