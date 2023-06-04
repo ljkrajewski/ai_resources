@@ -20,6 +20,15 @@ _Note: This list is incomplete. Use at your own risk._
 6. Start the pod instance.
 
 ## Running the latest [AUTOMATIC1111/Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+### Method 1: Using Jupyter Notebook
+1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
+```
+cd /workspace
+git clone https://github.com/ljkrajewski/runpod_ai.git
+```
+2. Open Jupyter Notebook, then run _/workstation/runpod_ai/stable_diffusion-A1111.ipynb_
+
+### Method 2: Manual
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
 apt install vim wget git python3 python3-venv -y
@@ -127,6 +136,20 @@ curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|gre
 ```
 3. (optional) At Google Drive, reset the file back to restricted availability.
 
+----
+## Preparing your RunPod instance for development using git and github
+Run each line individually.
+```
+$ apt install vim
+$ ssh-keygen -t ed25519 -f ~/.shh/runpod -C "Temp runpod key"
+$ cat ~/.ssh/runpod.pub   # Copy public key to https://github.com/settings/ssh/new
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/runpod
+$ git config --global user.name "Your Name"
+$ git config --global user.email your.email.address@example.com
+$ cd /workspace
+$ git clone git@github.com:ljkrajewski/runpod_ai.git
+```
 ----
 Run-Pod Sillytavern/Tavern.AI ([RUN TextGen AI WebUI LLM On Runpod & Colab! Cloud Computing POWER! - YouTube](https://www.youtube.com/watch?v=TP2yID7Ubr4))
 ```
