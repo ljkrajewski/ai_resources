@@ -30,7 +30,7 @@ git clone https://github.com/ljkrajewski/runpod_ai.git
     - _TODO: write about user-modifiable sections_ 
 4. When the "Running on public URL:" line appears, click on the _gradio.live_ link to enter your Automatic 1111 session.
 
-### Method 2: Manual
+### Method 2: Manual Install
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
 apt install vim wget git python3 python3-venv -y
