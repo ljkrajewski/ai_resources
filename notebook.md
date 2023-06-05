@@ -71,7 +71,8 @@ unzip oobabooga_linux.zip
 cd oobabooga_linux
 #git lfs install
 #git clone git@hf.co:$model
-sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook --wbits 4 --groupsize 128 --model_type llama'/" webui.py
+#sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook --wbits 4 --groupsize 128 --model_type llama'/" webui.py
+sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook'/" webui.py
 bash start_linux.sh
 ```
 or
