@@ -65,6 +65,15 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
 cd /workspace/
+curl -O https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
+unzip oobabooga_linux.zip
+cd oobabooga_linux
+sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook'/" webui.py
+bash start_linux.sh
+```
+or
+```
+cd /workspace/
 # May not need Conda. If not, skip to 'Install the UI'
 curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > "Miniconda3.sh"
 bash Miniconda3.sh
