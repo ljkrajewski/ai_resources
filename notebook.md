@@ -64,13 +64,13 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
-model='TheBloke/wizard-mega-13B-GPTQ'
+#model='TheBloke/wizard-mega-13B-GPTQ'
 cd /workspace/
 curl -O https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
 unzip oobabooga_linux.zip
 cd oobabooga_linux
-git lfs install
-git clone git@hf.co:$model
+#git lfs install
+#git clone git@hf.co:$model
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook --wbits 4 --groupsize 128 --model_type llama'/" webui.py
 bash start_linux.sh
 ```
