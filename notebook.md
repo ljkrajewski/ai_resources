@@ -65,10 +65,15 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
-## Set user interface and desired model
+## Set user interface
 export interface='--chat'
+#export interface='--notebook'
+
+## Set desired model
 export model='anon8231489123/vicuna-13b-GPTQ-4bit-128g'
 export switches='--wbits 4 --groupsize 128'
+#export model='TheBloke/WizardLM-Uncensored-Falcon-7B-GPTQ'
+#export switches='--autogptq --trust-remote-code'
 
 ## Install and start the UI
 git lfs install
