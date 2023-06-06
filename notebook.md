@@ -90,14 +90,18 @@ bash start_linux.sh
 ```
 2. _Extentions to install?_
 
-Alternative text generation UIs:
-- [Honkware/text-generation-webui](https://github.com/Honkware/text-generation-webui) [_[git clone link]_](https://github.com/Honkware/text-generation-webui.git)  
-Use with [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ)
-  - Use with a 48GB VRAM GPU. 
-  - In the file _text-generation-webui/modules/AutoGPTQ_loader.py_, find the line ```'use_safetensors': use_safetensors,``` and add after it a new line reading ```'trust_remote_code': shared.args.trust_remote_code,```.  
-  - Make sure _auto-devices_, _bf16_, and _trust_remote_code_ are checked in the _model_ tab of the web UI.
+## Running [Honkware/text-generation-webui](https://github.com/Honkware/text-generation-webui)
+For running the [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ) model.
 
-
+1. Start a RunPod instance as described [above](#start-here) with a 48GB VRAM GPU.
+2. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the commands above for _oobabooga_, except add ```sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py``` between ```cd /workspace/oobabooga_linux``` and the first ```sed``` command. In other words:
+<pre><code>
+...
+cd /workspace/oobabooga_linux
+<b>sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py</b>
+sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
+...
+</pre>
 ## Downloading to your RunPod instance
 
 ### from URL link
