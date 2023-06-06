@@ -76,7 +76,6 @@ cd oobabooga_linux
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--chat --share'/" webui.py
 sed -i 's/gpuchoice = input("Input> ").lower()/gpuchoice = "a"/' webui.py
 bash start_linux.sh
-#TODO: Find way to automate selection of NVIDIA GPU.
 #NOTE: Models downloaded to /workspace/oobabooga_linux/text-generation-webui/models
 ```
 2. _Extentions to install?_
