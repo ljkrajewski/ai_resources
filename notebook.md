@@ -68,17 +68,20 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 export interface='--chat'
 export model='anon8231489123/vicuna-13b-GPTQ-4bit-128g'
 export switches='--wbits 4 --groupsize 128'
+
 ## Install and start the UI
 git lfs install
 cd /workspace/
 wget https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
 apt install zip -y
 unzip oobabooga_linux.zip
+
 cd /workspace/oobabooga_linux
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
 sed -i 's/gpuchoice = input("Input> ").lower()/gpuchoice = "a"/' webui.py
 sed -i "s/launch_webui()/#launch_webui()/" webui.py
 bash start_linux.sh
+
 cd /workspace/oobabooga_linux/text-generation-webui/models
 git clone git@hf.co:$model
 cd /workspace/oobabooga_linux
