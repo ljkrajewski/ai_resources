@@ -99,13 +99,12 @@ For running the [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBl
 sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py
 ``` 
 between ```cd /workspace/oobabooga_linux``` and the first ```sed``` command. In other words:
-<pre><code>
-...
+<pre><code>...
 cd /workspace/oobabooga_linux
 <b>sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py</b>
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
-...
-</pre>
+...</pre>
+3. Make sure _auto-devices_, _bf16_, and _trust_remote_code_ are checked in the _model_ tab of the web UI.
 ## Downloading to your RunPod instance
 
 ### from URL link
