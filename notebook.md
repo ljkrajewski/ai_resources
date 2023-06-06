@@ -5,7 +5,8 @@ _Note: This list is incomplete. Use at your own risk._
 1. [Start here](#start-here)
 2. [Running the latest AUTOMATIC1111/Stable Diffusion](#running-the-latest-automatic1111stable-diffusion)
 3. [Running the latest oobabooga/text-generation-webui](#running-the-latest-oobaboogatext-generation-webui)
-4. [Downloading to your RunPod instance](#downloading-to-your-runpod-instance)  
+4. [Running Honkware/text-generation-webui](#running-honkwaretext-generation-webui)
+5. [Downloading to your RunPod instance](#downloading-to-your-runpod-instance)  
     a. [from URL link](#from-url-link)  
     b. [from Google Drive](#from-google-drive)
 
@@ -94,17 +95,23 @@ bash start_linux.sh
 For running the [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ) model.
 
 1. Start a RunPod instance as described [above](#start-here) with a 48GB VRAM GPU.
-2. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the commands above for _oobabooga_, except add 
-```
-sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py
-``` 
-between ```cd /workspace/oobabooga_linux``` and the first ```sed``` command. In other words:
-<pre><code>...
-cd /workspace/oobabooga_linux
-<b>sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py</b>
-sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
-...</pre>
-3. Make sure _auto-devices_, _bf16_, and _trust_remote_code_ are checked in the _model_ tab of the web UI.
+2. After starting a RunPod instance, open a web terminal and run the commands above for _oobabooga_, except:
+     - replace the _model_ and _switches_ variables with:
+     ```
+     export model='TheBloke/falcon-40b-instruct-GPTQ'
+     export switches=''
+     ```
+     - add
+    ```
+    sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py
+    ``` 
+    between ```cd /workspace/oobabooga_linux``` and the first ```sed``` command. In other words:
+    <pre><code>...
+   cd /workspace/oobabooga_linux
+   <b>sed -i "s/github.com\/oobabooga\/text/github.com\/Honkware\/text/g" webui.py</b>
+   sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
+   ...</code></pre>
+3. In the _model_ tab of the web UI, make sure _auto-devices_, _bf16_, and _trust_remote_code_ are checked.
 ## Downloading to your RunPod instance
 
 ### from URL link
