@@ -76,7 +76,7 @@ cd oobabooga_linux
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook --share'/" webui.py
 bash start_linux.sh
 #TODO: Find way to automate selection of NVIDIA GPU.
-#TODO: 'To create a public link, set `share=True` in `launch()`'
+#NOTE: Models downloaded to /workspace/oobabooga_linux/text-generation-webui/models
 ```
 or
 ```
