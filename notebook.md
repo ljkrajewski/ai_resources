@@ -118,6 +118,13 @@ For running the [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBl
    sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
    ...</code></pre>
 3. In the _model_ tab of the web UI, make sure _auto-devices_, _bf16_, and _trust_remote_code_ are checked.
+
+**NOTE:** Falcon 40b is _extremely_ slow (~0.7 tokens/sec) and needs ~90GB VRAM to run well. A potential alternative is [TheBloke/falcon-7b-instruct-GPTQ].
+ ```
+ export model='TheBloke/falcon-7b-instruct-GPTQ'
+ export switches='--autogptq --trust-remote-code'
+ ```
+
 ## Downloading to your RunPod instance
 
 ### from URL link
