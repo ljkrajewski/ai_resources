@@ -93,7 +93,7 @@ python webui.py
 2. _Extentions to install?_
 
 ## Running [Honkware/text-generation-webui](https://github.com/Honkware/text-generation-webui)
-For running the [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ) model.
+For running the [TheBloke/falcon-40b-instruct-GPTQ](https://huggingface.co/TheBloke/falcon-40b-instruct-GPTQ) model. [Why you should care about this model.](https://huggingface.co/blog/falcon)
 
 1. Start a RunPod instance as described [above](#start-here) with a 48GB VRAM GPU.
 2. After starting a RunPod instance, open a web terminal and run the commands above for _oobabooga_, except:
