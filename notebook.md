@@ -78,49 +78,6 @@ bash start_linux.sh
 #TODO: Find way to automate selection of NVIDIA GPU.
 #NOTE: Models downloaded to /workspace/oobabooga_linux/text-generation-webui/models
 ```
-or
-```
-cd /workspace/
-# May not need Conda. If not, skip to 'Install the UI'
-curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > "Miniconda3.sh"
-bash Miniconda3.sh
-conda create -n textgen python=3.10.9   # ??
-conda activate textgen   # ??
-
-# May not be needed because this is a 'RunPod Pytorch 2' instance.
-# See https://pytorch.org/get-started/locally/ for PyTorch  install cmd line.
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  #pip alternative
-
-# Install the UI
-git clone https://github.com/oobabooga/text-generation-webui
-cd text-generation-webui
-pip install -r requirements.txt
-
-# Manual GPTQ install: https://github.com/oobabooga/text-generation-webui/blob/main/docs/GPTQ-models-(4-bit-mode).md
-pip install https://github.com/jllllll/GPTQ-for-LLaMa-Wheels/raw/Linux-x64/quant_cuda-0.0.0-cp310-cp310-linux_x86_64.whl
-pip install bitsandbytes==0.38.1
-# Install AutoGPTQ
-#conda activate textgen   # ??
-git clone https://github.com/PanQiWei/AutoGPTQ.git && cd AutoGPTQ
-pip install .
-
-# Starting the UI.
-#conda activate textgen  # Don't use if not using Conda.
-cd /workspace/text-generation-webui
-python server.py --port 8080 --chat --auto-devices --model llama --trust-remote-code  # Adjust options as needed.
-
-# -- another set of instructions that may work... or not. idk. --
-#git clone https://github.com/oobabooga/text-generation-webui.git #(or alternatives below)
-#cd text-generation-webui
-#pip install -r requirements.txt
-#git clone https://github.com/PanQiWei/AutoGPTQ
-#cd AutoGPTQ
-#pip install .
-#pip install einops
-#cd ..
-#python server.py --share --chat --auto-devices --model llama --autogptq --trust-remote-code
-```
 2. _Extentions to install?_
 
 Alternative text generation UIs:
