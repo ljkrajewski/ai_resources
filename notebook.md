@@ -64,19 +64,18 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 ## Running the latest [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
-#
+# Set user interface and desired model
 export interface='--chat'
 export model='anon8231489123/vicuna-13b-GPTQ-4bit-128g'
 export switches='--wbits 4 --groupsize 128'
-#
+# Install and start the UI
 git lfs install
 cd /workspace/
 wget https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
 apt install zip -y
 unzip oobabooga_linux.zip
-cd oobabooga_linux
-cd /workspace/oobabooga_linux/text-generation-webui/models
-git clone git@hf.co:$model
+#cd /workspace/oobabooga_linux/text-generation-webui/models
+#git clone git@hf.co:$model
 cd /workspace/oobabooga_linux
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
 sed -i 's/gpuchoice = input("Input> ").lower()/gpuchoice = "a"/' webui.py
