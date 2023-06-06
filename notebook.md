@@ -66,14 +66,17 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 ```
 #model='TheBloke/wizard-mega-13B-GPTQ'
 cd /workspace/
-curl -O https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
+wget https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
+apt install zip -y
 unzip oobabooga_linux.zip
 cd oobabooga_linux
 #git lfs install
 #git clone git@hf.co:$model
 #sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook --wbits 4 --groupsize 128 --model_type llama'/" webui.py
-sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook'/" webui.py
+sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--notebook --share'/" webui.py
 bash start_linux.sh
+#TODO: Find way to automate selection of NVIDIA GPU.
+#TODO: 'To create a public link, set `share=True` in `launch()`'
 ```
 or
 ```
