@@ -71,9 +71,9 @@ export switches='--wbits 4 --groupsize 128'
 
 ## Install and start the UI
 git lfs install
+apt install zip -y
 cd /workspace/
 wget https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
-apt install zip -y
 unzip oobabooga_linux.zip
 
 cd /workspace/oobabooga_linux
