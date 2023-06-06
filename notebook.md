@@ -87,7 +87,8 @@ cd /workspace/oobabooga_linux/text-generation-webui/models
 git clone git@hf.co:$model
 cd /workspace/oobabooga_linux
 sed -i "s/#launch_webui()/launch_webui()/" webui.py
-bash start_linux.sh
+#bash start_linux.sh
+python webui.py
 ```
 2. _Extentions to install?_
 
