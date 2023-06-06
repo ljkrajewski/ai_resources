@@ -76,7 +76,7 @@ export switches='--wbits 4 --groupsize 128'
 #export switches='--autogptq --trust-remote-code'
 
 ## Install and start the UI
-git lfs install
+#git lfs install
 apt install zip -y
 cd /workspace/
 wget https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_linux.zip
@@ -88,9 +88,10 @@ sed -i 's/gpuchoice = input("Input> ").lower()/gpuchoice = "a"/' webui.py
 sed -i "s/launch_webui()/#launch_webui()/" webui.py
 bash start_linux.sh
 
-cd /workspace/oobabooga_linux/text-generation-webui/models
-git clone git@hf.co:$model
+#cd /workspace/oobabooga_linux/text-generation-webui/models
+#git clone git@hf.co:$model
 cd /workspace/oobabooga_linux
+python text-generation-webui/download-model.py $model
 sed -i "s/#launch_webui()/launch_webui()/" webui.py
 #bash start_linux.sh
 python webui.py
