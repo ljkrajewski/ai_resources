@@ -85,14 +85,14 @@ unzip oobabooga_linux.zip
 cd /workspace/oobabooga_linux
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
 sed -i 's/gpuchoice = input("Input> ").lower()/gpuchoice = "a"/' webui.py
-sed -i "s/launch_webui()/#launch_webui()/" webui.py
+sed -i "s/^        launch_webui()/        #launch_webui()/" webui.py   #Both blank parts are 8 spaces long.
 bash start_linux.sh
 
 #cd /workspace/oobabooga_linux/text-generation-webui/models
 #git clone git@hf.co:$model
 cd /workspace/oobabooga_linux
 python text-generation-webui/download-model.py $model
-sed -i "s/#launch_webui()/launch_webui()/" webui.py
+sed -i "s/^        #launch_webui()/        launch_webui()/" webui.py
 #bash start_linux.sh
 python webui.py
 ```
