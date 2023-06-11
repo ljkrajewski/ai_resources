@@ -66,14 +66,14 @@ curl "https://civitai.com/api/download/models/51913" -o "edge_of_realism.safeten
 1. After starting a RunPod instance ([see above](#start-here)), open a web terminal and run the following commands:
 ```
 ## Set user interface
-export interface='--chat'
-#export interface='--notebook'
+export interface='\-\-chat'
+#export interface='\-\-notebook'
 
 ## Set desired model
 export model='anon8231489123/vicuna-13b-GPTQ-4bit-128g'
-export switches='--wbits 4 --groupsize 128'
+export switches='\-\-wbits 4 \-\-groupsize 128'
 #export model='TheBloke/WizardLM-Uncensored-Falcon-7B-GPTQ'
-#export switches='--autogptq --trust-remote-code'
+#export switches='\-\-autogptq \-\-trust-remote-code'
 
 ## Install and start the UI
 pip install tqdm
@@ -85,6 +85,7 @@ unzip oobabooga_linux.zip
 cd /workspace/oobabooga_linux
 git clone https://github.com/oobabooga/text-generation-webui.git
 cd text-generation-webui
+python -m pip install -r ./requirements.txt
 python download-model.py $model
 cd ..
 sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
