@@ -40,6 +40,9 @@ In this post we'll walk through setting up a pod on RunPod using a template that
 ## Models
 - [Hugging Face \- Text Generation Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads)  
 Repositiry of LLM (and other) AI models including:
+  - [TheBloke/Nous-Hermes-13B-GPTQ](https://huggingface.co/TheBloke/Nous-Hermes-13B-GPTQ)  
+A state-of-the-art language model fine-tuned on over 300,000 instructions. This model was fine-tuned by Nous Research, with Teknium and Karan4D leading the fine tuning process and dataset curation, Redmond AI sponsoring the compute, and several other contributors. The result is an enhanced Llama 13b model that rivals GPT-3.5-turbo in performance across a variety of tasks.  
+This model stands out for its long responses, low hallucination rate, and absence of OpenAI censorship mechanisms. The fine-tuning process was performed with a 2000 sequence length on an 8x a100 80GB DGX machine for over 50 hours.
   - [**Hugging Face \- TheBloke/guanaco-65B-GPTQ**](https://huggingface.co/TheBloke/guanaco-65B-GPTQ)  
 QLoRa model claiming 99% the power of ChatGPT.
   - [Hugging Face \- anon8231489123/vicuna\-13b\-GPTQ\-4bit\-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g) ```--wbits 4 --groupsize 128```  
