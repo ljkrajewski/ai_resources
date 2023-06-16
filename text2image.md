@@ -14,6 +14,9 @@ Installing Stable Diffusion on Google Colab (so you can have a GPU).
 ## Models
 - [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)  
 Produces high quality object masks from input prompts such as points or boxes, and it can be used to generate masks for all objects in an image.
+- [Hugging Face](https://huggingface.co/)
+  -  [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main)  
+_v1-5-pruned.safetensors_ is recommended for training models.
 - [Civitai](https://civitai.com/)  
 Repository of Stable Diffusion models including:
   - [Set of photorealistic models to browse](https://civitai.com/tag/photorealistic)
