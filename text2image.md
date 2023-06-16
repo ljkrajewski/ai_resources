@@ -27,6 +27,7 @@ Repository of Stable Diffusion models including:
     - [Universal photorealistic model with style palette](https://civitai.com/models/16916/universal-photorealistic-model-with-style-palette) _[[Download link]](https://civitai.com/api/download/models/19969)_
     - [Edge Of Realism](https://civitai.com/models/21813/edge-of-realism) _[[Download link]](https://civitai.com/api/download/models/51913)_
     - [Uber Realistic Porn Merge (URPM)](https://civitai.com/models/2661/uber-realistic-porn-merge-urpm) _[[Download link]](https://civitai.com/api/download/models/15640)_
+    - [Flat-2D Animerge](https://civitai.com/models/35960/flat-2d-animerge) _[(Download link)](https://civitai.com/api/download/models/91560)_
 - VAE: [gemasai/vae-ft-mse-840000-ema-pruned](https://huggingface.co/gemasai/vae-ft-mse-840000-ema-pruned/tree/main)
 
 ## Training/Tutorials/Etc.
