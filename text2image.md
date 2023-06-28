@@ -21,6 +21,8 @@ _v1-5-pruned.safetensors_ is recommended for training models.
 Repository of Stable Diffusion models including:
   - [Set of photorealistic models to browse](https://civitai.com/tag/photorealistic)
   - Best models (IMO):
+    - [Reliberate](https://civitai.com/models/79754/reliberate) _[[Download link]](https://civitai.com/api/download/models/84576)_  
+    Good with [LowRA](https://civitai.com/models/48139/lowra) _[[Download link]](https://civitai.com/api/download/models/63006)_ and [Detail Tweaker](https://civitai.com/models/58390/detail-tweaker-lora-lora) _[[Download link]](https://civitai.com/api/download/models/62833)_ LoRAs.
     - [Level4](https://civitai.com/models/17449/level4) _[[Download link]](https://civitai.com/api/download/models/25295)_
     - [ChilloutMix](https://civitai.com/models/6424/chilloutmix) _[[Download link]](https://civitai.com/api/download/models/11745)_ Warning: NSFW content.
     - [Protogen x3.4 (Photorealism)](https://civitai.com/models/3666/protogen-x34-photorealism-official-release) _[[Download link]](https://civitai.com/api/download/models/4048)_
