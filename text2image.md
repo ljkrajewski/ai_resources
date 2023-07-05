@@ -34,7 +34,7 @@ Repository of Stable Diffusion models including:
 
 ## Training/Tutorials/Etc.
 - __[The guide to fine-tuning Stable Diffusion with your own images](https://tryolabs.com/blog/2022/10/25/the-guide-to-fine-tuning-stable-diffusion-with-your-own-images)__  
-** Includes therory and recomendations from their Discord community. Best read so far. **
+** Includes therory, recomendations from their Discord community, and a good workflow for producing best txt2image, image2image, or inpainting results. Best read so far. **
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
 Focuses on using graphic AI.
 - [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
