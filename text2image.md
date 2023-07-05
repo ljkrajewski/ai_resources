@@ -33,6 +33,8 @@ Repository of Stable Diffusion models including:
 - VAE: [gemasai/vae-ft-mse-840000-ema-pruned](https://huggingface.co/gemasai/vae-ft-mse-840000-ema-pruned/tree/main)
 
 ## Training/Tutorials/Etc.
+- __[The guide to fine-tuning Stable Diffusion with your own images](https://tryolabs.com/blog/2022/10/25/the-guide-to-fine-tuning-stable-diffusion-with-your-own-images)__  
+** Includes therory and recomendations from their Discord community. Best read so far. **
 - [Prompt Muse channel - YouTube](https://www.youtube.com/@promptmuse)  
 Focuses on using graphic AI.
 - [Aitrepreneur channel - YouTube](https://www.youtube.com/@Aitrepreneur)  
@@ -42,7 +44,7 @@ Covers LLM and graphic AI. Generally includes instructions for local installatio
 - [Perfect hands in Stable Diffusion AI - YouTube](https://www.youtube.com/watch?v=IPmxnMTFVtY)  
 Hands are a problem even with the best of prompts. This walks you through using the PoseX and Depth Library extentions to fix them.
 - [Stable Diffusion - Better Fine Details with a new VAE! (Variational Autoencoder) - YouTube](https://www.youtube.com/watch?v=QFFQi5Jd4I4)
-- [**cloneofsimo/lora-training**](https://replicate.com/cloneofsimo/lora-training)  
+- [cloneofsimo/lora-training](https://replicate.com/cloneofsimo/lora-training)  
 LoRA model trainer with presets for faces, objects, and styles. Read the introduction/how-to [here](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion).
 
 ## Negative prompts
