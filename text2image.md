@@ -2,6 +2,8 @@
 
 ## Colab Notebooks
 
+- [__How To Use Stable Diffusion XL (SDXL 0.9) On Google Colab For Free (YouTube)__](https://www.youtube.com/watch?v=s2MQqmv6yAg)
+  - [[Tutorial] How To Use Stable Diffusion SDXL Locally And Also In Google Colab (GitHub)](https://github.com/FurkanGozukara/Stable-Diffusion/blob/main/Tutorials/How-To-Use-Stable-Diffusion-SDXL-Locally-And-Also-In-Google-Colab.md)
 - [https://github.com/TheLastBen/fast\-stable\-diffusion](https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb) 
   - Google Colab Stable Diffusion notebook (coming)
   - [Google Colab Dreambooth notebook](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb)
