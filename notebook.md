@@ -150,11 +150,13 @@ curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|gre
 ## Preparing your RunPod instance for development using git and github
 Run each line individually.
 ```
+apt update
 apt install vim -y
 cd ~
 ssh-keygen -t ed25519 -f .ssh/runpod -C "Temp runpod key"
 cat .ssh/runpod.pub
 # Copy the public key above to https://github.com/settings/ssh/new now.
+
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/runpod
 git config --global user.name "Your Name"
