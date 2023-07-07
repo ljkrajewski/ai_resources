@@ -88,7 +88,8 @@ cd text-generation-webui
 python -m pip install -r ./requirements.txt
 python download-model.py $model
 cd ..
-sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
+#sed -i "s/CMD_FLAGS = '--chat'/CMD_FLAGS = '--share $interface $switches'/" webui.py
+export OOBABOOGA_FLAGS="--share $interface $switches"
 sed -i 's/gpuchoice = input("Input> ").lower()/gpuchoice = "a"/' webui.py
 bash start_linux.sh
 ```
