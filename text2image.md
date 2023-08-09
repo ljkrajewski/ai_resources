@@ -48,6 +48,7 @@ Hands are a problem even with the best of prompts. This walks you through using 
 - [Stable Diffusion - Better Fine Details with a new VAE! (Variational Autoencoder) - YouTube](https://www.youtube.com/watch?v=QFFQi5Jd4I4)
 - [cloneofsimo/lora-training](https://replicate.com/cloneofsimo/lora-training)  
 LoRA model trainer with presets for faces, objects, and styles. Read the introduction/how-to [here](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion).
+- [__Textual Inversion Tutorial - Embeddings and Hypernetwork basics and walkthrough (YouTube)__](https://www.youtube.com/watch?v=Ep4T8fyy2LE)
 
 ## AI Enhancers/Upgraders
 - [8 Best Free Online AI Photo Enhancer Tools in 2023](https://www.perfectcorp.com/consumer/blog/online-photo-editing/photo-enhancer-online-tools)
