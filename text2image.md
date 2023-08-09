@@ -52,6 +52,7 @@ LoRA model trainer with presets for faces, objects, and styles. Read the introdu
 ## AI Enhancers/Upgraders
 - [8 Best Free Online AI Photo Enhancer Tools in 2023](https://www.perfectcorp.com/consumer/blog/online-photo-editing/photo-enhancer-online-tools)
 - [Top 10 Free Online AI Image Upscalers in 2023](https://www.media.io/image-upscaler-tips/online-ai-image-upscaler.html)
+- [ComfyUI Infinite Upscale - Add details as you upscale your images using the iterative upscale node (YouTube)](https://www.youtube.com/watch?v=t3lT_04A9j0)
 
 ## Negative prompts
 - basic negative prompt
