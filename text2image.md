@@ -49,6 +49,10 @@ Hands are a problem even with the best of prompts. This walks you through using 
 - [cloneofsimo/lora-training](https://replicate.com/cloneofsimo/lora-training)  
 LoRA model trainer with presets for faces, objects, and styles. Read the introduction/how-to [here](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion).
 
+## AI Enhancers/Upgraders
+- [8 Best Free Online AI Photo Enhancer Tools in 2023](https://www.perfectcorp.com/consumer/blog/online-photo-editing/photo-enhancer-online-tools)
+- [Top 10 Free Online AI Image Upscalers in 2023](https://www.media.io/image-upscaler-tips/online-ai-image-upscaler.html)
+
 ## Negative prompts
 - basic negative prompt
 ```
